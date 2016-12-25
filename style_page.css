@@ -1,4 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=VT323);
+<style>
+@import url('https://fonts.googleapis.com/css?family=VT323');
+</style>
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -36,11 +38,18 @@ footer, header, hgroup, menu, nav, section {
 #firstcategory{
     font-size: 20px;
     font-family: 'VT323', monospace;
-    /*padding-top: 15px; */
+    text-indent: -40px;
     
 }
 
 #category{
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+    color: black;
+    text-indent: -40px;
+}
+
+#cate{
     font-size: 20px;
     font-family: 'VT323', monospace;
     color: black;
