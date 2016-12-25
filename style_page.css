@@ -31,27 +31,27 @@ footer, header, hgroup, menu, nav, section {
 
 #title{
     font-size: 25px;
-    font-family: 'VT323', monospace;
+    font-family: 'VT323';
     color: black;
 }
 
 #firstcategory{
     font-size: 20px;
-    font-family: 'VT323', monospace;
+    font-family: 'VT323';
     text-indent: -40px;
     
 }
 
 #category{
     font-size: 20px;
-    font-family: 'VT323', monospace;
+    font-family: 'VT323';
     color: black;
     text-indent: -40px;
 }
 
 #cate{
     font-size: 20px;
-    font-family: 'VT323', monospace;
+    font-family: 'VT323';
     color: black;
 }
 
