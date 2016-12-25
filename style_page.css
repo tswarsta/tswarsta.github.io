@@ -33,13 +33,12 @@ footer, header, hgroup, menu, nav, section {
     font-size: 25px;
     font-family: 'VT323', monospace;
     color: black;
-    font-weight: 100;
 }
 
 #firstcategory{
     font-size: 20px;
     font-family: 'VT323', monospace;
-    padding-top: 15px;
+    /*padding-top: 15px; */
     
 }
 
