@@ -20,19 +20,30 @@
 </style>
 
 <script type='text/javascript' src='jquery.js'></script>
+<script type='text/javascript' src='cookies.js'></script>
 <script type='text/javascript' src='expanding.js'></script>
+<script type='text/javascript' src='cycle.js'></script>
 
-<script>
-
+<script type='text/javascript'>
 $(document).ready(function()
 {
-	
+	setTimeout('move_up()', 1);
 	expandingMenu(0);
 	expandingMenu(1);
 	expandingMenu(2);
 	expandingMenu(3);
 	expandingMenu(4);
 });
+</script>
+
+<script type='text/javascript'>
+$(document).ready(function(){ 
+	$('#s1').cycle({
+	fx:'fade', 
+	speed:'2000', 
+	timeout: 0, 
+	next:'#next', prev:'#prev'});
+	});
 </script>
 
 
@@ -114,8 +125,27 @@ $(document).ready(function()
 </p>
         
     </div>
-
+<br><br>
+    <div id="img-container"><p> Select spreads from the five booklets. </p></div>
+ <p></p><div id='img-container'>
+<p class='nav'><a id='prev' href='#'>Previous</a>  <a id='next' href='#'>Next</a> 
+	       <span id='num'></span></p><div id='s1' class='pics'>
     
+<div><img src='selectspreads/kirk2.jpg' res width="90%" height="100%" class='img-bot' /><p>&nbsp;</p></div>
+<div><img src='selectspreads/kirk3.png' res width="90%" height="100%" class='img-bot' /><p>&nbsp;</p></div>
+<div><img src='selectspreads/kirk5.png' res width="90%" height="100%" class='img-bot' /><p>&nbsp;</p></div>
+<div><img src='selectspreads/kirk12.png' res width="90%" height="100%" class='img-bot' /><p>&nbsp;</p></div>
+<div><img src='selectspreads/jean3.png' res width="90%" height="100%" class='img-bot' /><p>&nbsp;</p></div>
+<div><img src='selectspreads/jean4.png' res width="90%" height="100%" class='img-bot' /><p>&nbsp;</p></div>    
+<div><img src='selectspreads/jean5.png' res width="90%" height="100%" class='img-bot' /><p>&nbsp;</p></div>    
+<div><img src='selectspreads/jean6.png' res width="90%" height="100%" class='img-bot' /><p>&nbsp;</p></div>    
+<div><img src='selectspreads/roy3.png' res width="90%" height="100%" class='img-bot' /><p>&nbsp;</p></div> 
+<div><img src='selectspreads/roy6.png' res width="90%" height="100%" class='img-bot' /><p>&nbsp;</p></div>    
+<div><img src='selectspreads/roy10.png' res width="90%" height="100%" class='img-bot' /><p>&nbsp;</p></div>
+    
+    </div>   
+    
+
 <!-- end text and image -->
 
 </div>
