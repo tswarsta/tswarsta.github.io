@@ -38,7 +38,7 @@ footer, header, hgroup, menu, nav, section {
 #firstcategory{
     font-size: 20px;
     font-family: 'VT323';
-    text-indent: -40px;
+/*    text-indent: -20px;*/
     
 }
 
@@ -46,7 +46,7 @@ footer, header, hgroup, menu, nav, section {
     font-size: 20px;
     font-family: 'VT323';
     color: black;
-    text-indent: -40px;
+/*    text-indent: 20px;*/
 }
 
 #cate{
@@ -66,7 +66,6 @@ body {
     color: black;
 }
 
-
 /* unvisited link */
 a:link {
     color: black;
@@ -81,8 +80,6 @@ a:visited {
 /* mouse over link */
 a:hover {
     background-color: yellow;
-    color: p
-        ink;
 }
 
 /* selected link */
@@ -108,8 +105,11 @@ a img { border: none; }
 	list-style: none;
 	list-style-position:outside;
 	list-style-type:none;
-	margin: 10px 0px 10px 0px;
-/*    text-indent: -40px;*/
+	margin: 10px 0px 10px -40px;
+}
+
+#a{
+    text-indent: 100px;
 }
 
 #menu ul li.section-title { 
