@@ -127,6 +127,7 @@ a img { border: none; }
     padding: 10px 10px 10px 10px;
 }
 
+/*
 #the-background {
 height:100%;
 left:0;
@@ -136,6 +137,7 @@ top:0;
 width:100%;
 z-index:1;
 }
+*/
 
 #wrapper {
 height:100%;
@@ -152,11 +154,6 @@ p {
     margin: 10px 0px 0 0;
 }
 
-h1 { font-size: 32px; }
-h2 { font-size: 24px; }
-h3 { font-size: 16px; }
-h4 { font-size: 12px; }
-
 #img-container	{margin: 0; padding: 0; 
 margin-left: 0px}
 #img-container p	{ width: 65%; margin: 0;  }
@@ -168,6 +165,12 @@ margin-left: 0px}
     font-size: 20px;
     font-family: 'VT323', monospace;
     color: black;    
+}
+
+#subtitle{
+    font-weight: 700;
+    color: #909090;
+    font-size: 12px;
 }
 
 #bottom{
