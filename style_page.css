@@ -62,6 +62,8 @@ body {
 	font-family: Arial, sans-serif;
 	background: FFF;
 	color: black;
+    text-align: justify;
+    text-justify: inter-word;
 }
 #nomenu{
     color: black;
