@@ -200,3 +200,46 @@ height: 100%;
 .container-block{
     width: 65%;
 }
+
+.tiptext {
+    background:#ccc;
+    border: 1px #333 solid;
+    padding:5px;
+    width:100px;
+}
+.description {
+    display:none;
+    position:absolute;
+    border:1px solid #000;
+    width:400px;
+    height:400px;
+}
+
+/* Hide the scrollbar in Webkit */
+body[data-view="project"]::-webkit-scrollbar {
+	display: none;
+}
+
+::-webkit-scrollbar {
+  width: 1.0em;
+  height: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+   background: #000000;
+        border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+        border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+}
+
+
+
+html[data-view="project"].ios body {
+	overflow: hidden;
+}
