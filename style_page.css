@@ -29,30 +29,42 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+@font-face {
+    font-family: ub;
+    src: url(UniversLTStd-BoldCn.otf);
+}
+
+/*
+@font-face {
+    font-family: weight45;
+    src: url(gt-pressura-mono-regular.ttf);
+}
+*/
+
 #title{
-    font-size: 25px;
-    font-family: 'VT323';
+    font-size: 18px;
+    font-family: ub;
     color: black;
 }
 
 #firstcategory{
-    font-size: 20px;
-    font-family: 'VT323';
+    font-size: 16px;
+    font-family: ub;
 /*    text-indent: -20px;*/
     
 }
 
 
 #category{
-    font-size: 20px;
-    font-family: 'VT323';
+    font-size: 16px;
+    font-family: ub;
     color: black;
 /*    text-indent: 20px;*/
 }
 
 #cate{
-    font-size: 20px;
-    font-family: 'VT323';
+    font-size: 16px;
+    font-family:ub;
     color: black;
 }
 
@@ -160,8 +172,8 @@ margin-left: 0px}
 #once { clear: left; }
 
 #projecttitle{
-    font-size: 20px;
-    font-family: 'VT323', monospace;
+    font-size: 16px;
+    font-family: ub;
     color: black;  
 
 }
