@@ -49,21 +49,21 @@ footer, header, hgroup, menu, nav, section {
 #firstcategory{
     font-size: 16px;
     font-family: ub;
-/*    text-indent: -20px;*/
+
     
 }
 
 
 #category{
-    letter-spacing: 1px;
+/*    letter-spacing: 1px;*/
     font-size: 16px;
     font-family: ub;
     color: black;
-/*    text-indent: 20px;*/
+
 }
 
 #cate{
-    letter-spacing: 1px;
+  
     font-size: 16px;
     font-family:ub;
     color: black;
