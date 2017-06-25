@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+
 @font-face {
     font-family: ub;
     src: url(UniversLTStd-BoldCn.otf);
@@ -41,23 +42,25 @@ footer, header, hgroup, menu, nav, section {
 
 #title{
     font-size: 18px;
-    font-family: ub;
+    font-family: vt323;
     color: black;
 
 }
 
 #firstcategory{
     font-size: 16px;
-    font-family: ub;
+    font-family: vt323;
 
     
 }
 
 
+
 #category{
-/*    letter-spacing: 1px;*/
+    letter-spacing: 1px;
+
     font-size: 16px;
-    font-family: ub;
+    font-family: vt323;
     color: black;
 
 }
@@ -65,14 +68,14 @@ footer, header, hgroup, menu, nav, section {
 #cate{
   
     font-size: 16px;
-    font-family:ub;
+    font-family:vt323;
     color: black;
 }
 
 
 body {
 	font-size: 14px;
-	font-family: Arial, sans-serif;
+	font-family: helvetica neue, sans-serif;
 	background: FFF;
 	color: black;
     text-align: justify;
@@ -83,19 +86,27 @@ body {
 }
 
 /* unvisited link */
+
 a:link {
     color: black;
     text-decoration: none;
+
 }
 
+
 /* visited link */
+
 a:visited {
     color: black;
     text-decoration: none;
 }
+
 /* mouse over link */
+
 a:hover {
-    background-color: yellow;
+    background-color: black;
+    color: white;
+
 }
 
 a img { border: none; }
@@ -129,7 +140,8 @@ a img { border: none; }
 }
 
 expandingMenu: hover{
-    background-color: yellow;
+    background-color: black;
+    color: white;
 }
 
 #menu ul li.hover { text-decoration: underline; }
@@ -142,7 +154,8 @@ expandingMenu: hover{
     padding: 10px 10px 10px 10px;
 }
 
-/*
+
+
 #the-background {
 height:100%;
 left:0;
@@ -152,7 +165,7 @@ top:0;
 width:100%;
 z-index:1;
 }
-*/
+
 
 #wrapper {
 height:100%;
@@ -178,7 +191,7 @@ margin-left: 0px}
 
 #projecttitle{
     font-size: 16px;
-    font-family: ub;
+    font-family: vt323;
     color: black;  
 
 }
@@ -231,8 +244,10 @@ height: 100%;
     width:400px;
     height:400px;
 }
+*/
 
 /* Hide the scrollbar in Webkit */
+
 body[data-view="project"]::-webkit-scrollbar {
 	display: none;
 }
@@ -259,4 +274,10 @@ body[data-view="project"]::-webkit-scrollbar {
 
 html[data-view="project"].ios body {
 	overflow: hidden;
+}
+
+h1{
+    font-family:'PerpetuaTitlingMT-Bold';
+    font-size: 75px;
+    color: darkorange;
 }
