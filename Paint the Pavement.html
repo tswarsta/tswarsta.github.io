@@ -4,7 +4,8 @@
    <head>
     <title>Paint the Pavement</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link rel="stylesheet" type="text/css" href="css/style.css">
+         <link id="stylesheet" rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="script/invert.js"></script>
      <script src="script/jquery.js"></script>
      <script src="script/min.js"></script>   
      <script src="script/btp.js"></script>  
@@ -133,7 +134,21 @@
 </div>
 </div>
 
-    <div><div class="bottomMenu"><h1><a href="#top">Back to Top</a></h1></div><div class="hidemm"><div class="sp"><h1 >SIMILAR PROJECTS - <a href="ocd.html">OCD Internship</a>, <a href="AIGA%20Design%20Census.html">AIGA Design Census</a></h1></div></div><div class="hidef"><div class="sp10"><h1>SIMILAR PROJECTS - <a href="ocd.html">OCD Internship</a>, <a href="AIGA%20Design%20Census.html">AIGA Design Census</a></h1></div></div></div>
+   
+    
+    <div><div class="section group">
+	<div class="col span_1_of_4">
+	<div class="bottomMenu"><h1><a href="#top">Back to Top</a></h1></div>
+	</div>
+	<div class="col span_1_of_4">
+	</div>
+	<div class="col span_1_of_4">
+	</div>
+	<div class="col span_1_of_4">
+        <div class="hidemm"><div class="sp"><h1 >SIMILAR PROJECTS - <a href="ocd.html">OCD Internship</a>, <a href="AIGA%20Design%20Census.html">AIGA Design Census</a></h1></div></div><div class="hidef"><div class="sp10"><h1>SIMILAR PROJECTS - <a href="ocd.html">OCD Internship</a>, <a href="AIGA%20Design%20Census.html">AIGA Design Census</a></h1></div>
+    </div></div>
+</div></div>
+    
 
 <body>
 <!--	/* FIRST COLUMN IMAGES */-->
@@ -226,6 +241,13 @@
 
 
 
-<footer><a href="index.html" class="header">TREAT SWARSTAD</a> &emsp;<a href="mailto:treatswarstad@gmail.com">Contact Me</a> &emsp;<a href="https://www.instagram.com/lordswarstad/" target="_blank">Instagram</a></footer>
+<footer><div class="section group" class="description">
+	<div class="col span_3_of_4">
+	<a href="index.html" class="header">TREAT SWARSTAD</a> &emsp;<a href="mailto:treatswarstad@gmail.com">Contact Me</a> &emsp;<a href="https://www.instagram.com/lordswarstad/" target="_blank">Instagram</a>
+	</div>
+
+	<div class="col span_1_of_4">
+	<a id="toggle" onclick="setStyleSheet()" href="#">Invert</a>
+    </div></div></footer>
 
 </html>

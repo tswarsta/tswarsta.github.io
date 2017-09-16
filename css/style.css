@@ -30,7 +30,6 @@ header{
 
 
 
-
 .top{
   z-index: 99;
   position: fixed; width: 100%; top: 20px; height: 100px;
@@ -42,16 +41,34 @@ header{
 }
  
 footer{
+
     position: fixed;
-    left: 0;
+/*    left: 0;*/
     bottom: 0;
+/*
     padding-left: 20px;
     padding-bottom: 20px;    
+*/
     width: 100%;
     overflow:hidden;
     font-family: vt323;
     font-size: 16px;
+
 }
+
+.invert{
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 20px;    
+    margin-left: 75vw;
+    overflow:hidden;
+    font-family: vt323;
+    font-size: 16px;
+
+}
+
+
 
 
 /* NAV */
@@ -67,10 +84,10 @@ footer{
 p{
   
     padding-right: 20px;
-    font-family: vt323;
+    font-family: helvetica neue;
     font-size: 24px;
     padding-bottom: 20px;
-    line-height: 20px;
+    line-height: 24px;
 }
 h1{
     z-index: 99;
@@ -79,9 +96,42 @@ h1{
     padding-bottom: 12px;
 }
 
+h2{
+    font-family: helvetica neue;
+    font-size: 54px;
+    padding-bottom: 35px;
+}
+
+
+a div { 
+    display: none; 
+}
+
+a:hover div {
+     z-index: -100;
+    display: block;
+    position: relative;
+    position: absolute;
+   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a div img{
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-left: 0vw;
+}
+
+
+
+
+
 .caption{
+    font-family: vt323;
     padding-bottom: 750px;
     font-size: 16px;
+    line-height: 20px;
 }
 
 .firstp{
@@ -101,6 +151,8 @@ h1{
     display: none;
 }
 
+.free{
+}
 
 img{
     padding-top:30px;
@@ -135,7 +187,10 @@ img{
    
 }
 
-
+.animation{
+    padding-top: 80px;
+    padding-right: 20px;
+}
 
 
 
@@ -185,8 +240,8 @@ a.header:visited{
 .bottomMenu {
     display: none;
     position: fixed;
-    margin-left:20px;
-    margin-top: 42vh;
+/*    margin-left:20px;*/
+    margin-top: 40.25vh;
     width: 50%;
     z-index: 100;
 }
@@ -194,8 +249,8 @@ a.header:visited{
 .sp, .sppb, .sp9, .spa, .sp10, .sp910, .spab {
     display: none;
     position: fixed;
-    padding-left: 75vw;
-    margin-top: 42vh;
+/*    padding-left: 75vw;*/
+    margin-top: 40.25vh;
     width: 23vw;
     z-index: 10;
     
@@ -283,7 +338,7 @@ a.header:visited{
 }
 
 .ticker {
-  z-index: 10;
+  z-index: -10;
   position: fixed;
   display: inline-block;
   white-space: nowrap;
@@ -318,7 +373,7 @@ a.header:visited{
 .mobilenav{
     display: none;
     font-family: vt323;
-    padding: ;
+    
 }
 li{
     font-family: vt323;
@@ -351,15 +406,8 @@ li{
 	font-family: vt323;
 	font-size: 16px;
 	color: black;
-	background: white;
-	border-left: 0px solid white;
-	border-right: 0px solid white;
 
-	-webkit-transition: all .3s ease;
-	-moz-transition: all .3s ease;
-	-o-transition: all .3s ease;
-	-ms-transition: all .3s ease;
-	transition: all .3s ease;
+	
 }
 
 .nav > li:hover > a { 
@@ -382,7 +430,7 @@ li{
     padding-bottom: relative;
 	overflow: hidden;
 
-	background: white;
+	
 
 	-webkit-transition: all .1s ease .0005s;
 	-moz-transition: all .1s ease .0005s;
@@ -467,16 +515,20 @@ html[data-view="project"].ios body {
     .sp, .sppb, .sp9, .spa {
     display: none;
     position: fixed;
-    padding-left: 1265px;
     margin-top: 42vh;
     width: 23vw;
-    z-index: 10;
-    
+    z-index: 10; 
 }
+    .invert{
+        margin-left: 1265px;
+    }
+   
+/*
     footer{
         padding-left: 330px;
         padding-bottom: 10px;
     }
+*/
     .display{
     width: 756px;
 
@@ -500,7 +552,7 @@ html[data-view="project"].ios body {
 }
 
 @media only screen and (max-width: 1281px){
-   
+  
 p{
         font-size: 16px;
         line-height:14px;
@@ -515,6 +567,14 @@ p{
 }
 
 @media only screen and (max-width: 1026px){
+    h2{
+        font-size: 36px;
+        padding-bottom: 24px;
+    }
+    
+    .invert{
+        margin-left: 75.5vw;
+    }
 .sp, .sppb, .sp9, .spa, .sp10, .sp910 {
         padding-left: 75.5vw;
     }  
@@ -535,7 +595,10 @@ p{
 }
 
 @media only screen and (max-width: 961px){
-
+h2{
+        font-size: 24px;
+        padding-bottom: 22px;
+    }
     p{
         font-size: 16px;
     }
@@ -549,7 +612,10 @@ p{
 }
 
 @media only screen and (max-width: 851px){
-
+h2{
+        font-size: 16px;
+        padding-bottom: 16px;
+    }
 h1{
     padding-top: 12px;
     padding-left:10px;
@@ -646,7 +712,7 @@ footer{
     
 .bottomMenu{
         margin-left: 0px;
-        margin-top: 28.25vh;
+        margin-top: 27.75vh;
         
     }
 .hidem{
@@ -659,7 +725,11 @@ footer{
     .lastp{
         display: block;
         padding-bottom: 60px;
-    }    
+    } 
+    
+    .null{
+        display: none;
+    }
 }
 
 

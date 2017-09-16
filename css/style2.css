@@ -3,7 +3,10 @@
 @font-face {
     font-family: vt323;
     src: url(VT323-Regular.ttf);
-}
+} 
+
+
+
 
 html {
     max-width: 1680px;
@@ -12,7 +15,7 @@ html {
     float: none !important;
     overflow: inherit;
     overflow-x: hidden;
-    background: black;
+    background-color: black;
 }
 
 
@@ -23,10 +26,10 @@ header{
     padding-bottom: 20px;
     font-family: vt323;
     font-size: 16px;
-    color: white;
-    
-   
+    color: white; 
 }
+
+
 
 .top{
   z-index: 99;
@@ -39,56 +42,108 @@ header{
 }
  
 footer{
-    color: white;
+
     position: fixed;
-    left: 0;
+/*    left: 0;*/
     bottom: 0;
+/*
     padding-left: 20px;
     padding-bottom: 20px;    
+*/
     width: 100%;
     overflow:hidden;
     font-family: vt323;
     font-size: 16px;
+    color: white;
+
 }
+
+.invert{
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 20px;    
+    margin-left: 75vw;
+    overflow:hidden;
+    font-family: vt323;
+    font-size: 16px;
+    color: white;
+
+}
+
+
 
 
 /* NAV */
 
 .desktopnav ul{
-    color: white;
     position: fixed;
     font-family: vt323;
     font-size: 16px;
     z-index: 100;
+    color: white;
 }
 
 /* CONTENT */
 p{
-    color: white;
+  
     padding-right: 20px;
     font-family: helvetica neue;
     font-size: 24px;
-    padding-bottom: 75px;
+    padding-bottom: 20px;
     line-height: 24px;
+    color: white;
 }
 h1{
-    color: white;
     z-index: 99;
     font-family: vt323;
     font-size: 16px;
     padding-bottom: 12px;
+    color: white;
 }
 
-.caption{
+h2{
+    font-family: helvetica neue;
+    font-size: 54px;
+    padding-bottom: 35px;
     color: white;
+}
+
+
+a div { 
+    display: none; 
+}
+
+a:hover div {
+     z-index: -100;
+    display: block;
+    position: relative;
+    position: absolute;
+   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a div img{
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-left: 0vw;
+}
+
+
+
+
+
+.caption{
+    font-family: vt323;
     padding-bottom: 750px;
     font-size: 16px;
+    line-height: 20px;
+
 }
 
 .firstp{
-    color: white;
-    position: fixed;
-    margin-top: 360px;
+    padding-top: 75px; 
     padding-bottom: 500px;
 }
 
@@ -97,19 +152,17 @@ h1{
 }
 
 .lastp{
-    padding-top: 15px;
     display: none;
-    color: white;
 }
 
 .intro{
-    margin-top: 326px;
+    display: none;
 }
 
+.free{
+}
 
 img{
-    position: fixed;
-    z-index: -1;
     padding-top:30px;
     padding-bottom: 30px;
     width: 75vw;
@@ -142,6 +195,10 @@ img{
    
 }
 
+.animation{
+    padding-top: 80px;
+    padding-right: 20px;
+}
 
 
 
@@ -192,19 +249,21 @@ a.header:visited{
 .bottomMenu {
     display: none;
     position: fixed;
-    margin-left:20px;
-    margin-top: 42vh;
+/*    margin-left:20px;*/
+    margin-top: 40.25vh;
     width: 50%;
     z-index: 100;
+    color: white;
 }
 
 .sp, .sppb, .sp9, .spa, .sp10, .sp910, .spab {
     display: none;
     position: fixed;
-    padding-left: 75vw;
-    margin-top: 42vh;
+/*    padding-left: 75vw;*/
+    margin-top: 40.25vh;
     width: 23vw;
     z-index: 10;
+    color: white;
     
 }
 
@@ -290,7 +349,7 @@ a.header:visited{
 }
 
 .ticker {
-  z-index: 10;
+  z-index: -10;
   position: fixed;
   display: inline-block;
   white-space: nowrap;
@@ -308,12 +367,12 @@ a.header:visited{
 
 
 .ticker__item {
-  color: white;
-  margin-top: 376px;
+
+  margin-top: 42vh;
   font-size: 16px;
     font-family: vt323;
   display: inline-block;
-
+color: white;
   text-transform: uppercase;
   }
 
@@ -325,6 +384,7 @@ a.header:visited{
 .mobilenav{
     display: none;
     font-family: vt323;
+    
 }
 li{
     font-family: vt323;
@@ -357,15 +417,9 @@ li{
 	font-family: vt323;
 	font-size: 16px;
 	color: white;
-/*	background: white;*/
-	border-left: 0px solid white;
-	border-right: 0px solid white;
+	
 
-	-webkit-transition: all .3s ease;
-	-moz-transition: all .3s ease;
-	-o-transition: all .3s ease;
-	-ms-transition: all .3s ease;
-	transition: all .3s ease;
+	
 }
 
 .nav > li:hover > a { 
@@ -388,7 +442,7 @@ li{
     padding-bottom: relative;
 	overflow: hidden;
 
-/*	background: white;*/
+	color: white;
 
 	-webkit-transition: all .1s ease .0005s;
 	-moz-transition: all .1s ease .0005s;
@@ -433,22 +487,20 @@ body[data-view="project"]::-webkit-scrollbar {
 }
 
 ::-webkit-scrollbar {
-
   width: 0.5em;
   height: 0.5em;
 }
 
 ::-webkit-scrollbar-thumb {
    background: #000000;
-    
-    border-right: 1px solid #000000;
+        border-right: 1px solid #000000;
     border-left: 1px solid #000000;
 
 }
 
 ::-webkit-scrollbar-track {
   background: #ffffff;
-    border-right: 1px solid #000000;
+        border-right: 1px solid #000000;
     border-left: 1px solid #000000;
 }
 
@@ -475,79 +527,69 @@ html[data-view="project"].ios body {
     .sp, .sppb, .sp9, .spa {
     display: none;
     position: fixed;
-    padding-left: 1265px;
     margin-top: 42vh;
     width: 23vw;
-    z-index: 10;
-    
+    z-index: 10; 
 }
+    .invert{
+        margin-left: 1265px;
+    }
+   
+/*
     footer{
-        padding-left:330px;
+        padding-left: 330px;
         padding-bottom: 10px;
     }
+*/
     .display{
     width: 756px;
 
 }
-    .intro{
-        margin-top: 326px;
-    }
-    .firstp{
-        margin-top: 360px;
-    }
-    
-    .ticker__item{
-        margin-top: 376px;
-    }
-    
 }
 
 @media only screen and (max-width: 1441px){
     p{
         font-size: 18px;
-        line-height: 15px;
+        line-height:15px;
     }
 .caption{
     padding-bottom: 650px;
 }
- 
-    
+
 .firstp{
-        margin-top: 232px;
-    }
-    
-.intro{
-        margin-top: 205px;
-    }
-    
+    padding-bottom: 432px;
+}
+ 
+
 }
 
 @media only screen and (max-width: 1281px){
-    .sp, .sppb, .sp9, .spa {
-        padding-left: 75.5vw;
-    }
+   
 p{
-    font-size: 16px;
-    line-height: 14px;
+        font-size: 16px;
+        line-height:14px;
     }   
 .caption{
     padding-bottom: 550px;
 }
 
 .firstp{
-        margin-top: 260px;
-    }
-    
-.intro{
-        margin-top: 235px;
-    }
+    padding-bottom: 380px;
+}
 }
 
 @media only screen and (max-width: 1026px){
+     h2{
+        font-size: 36px;
+        padding-bottom: 24px;
+    }
+       
+    .invert{
+        margin-left: 75.5vw;
+    }
 .sp, .sppb, .sp9, .spa, .sp10, .sp910 {
         padding-left: 75.5vw;
-    }
-  
+    }  
 .caption{
     padding-bottom: 450px;
 }
@@ -562,17 +604,13 @@ p{
     .hidemm{
         display: none;
     }
-.firstp{
-        margin-top: 200px;
-    }
-    
-.intro{
-        margin-top: 180px;
-    }
 }
 
 @media only screen and (max-width: 961px){
-
+h2{
+        font-size: 24px;
+        padding-bottom: 22px;
+    }
     p{
         font-size: 16px;
     }
@@ -580,11 +618,16 @@ p{
     padding-bottom: 400px;
 }
 
-
+.firstp{
+    padding-bottom: 280px;
+}
 }
 
 @media only screen and (max-width: 851px){
-
+h2{
+        font-size: 16px;
+        padding-bottom: 16px;
+    }
 h1{
     padding-top: 12px;
     padding-left:10px;
@@ -621,8 +664,6 @@ p{
     padding-right: 0px;
     padding-bottom: 12px;
     text-align: left;
-    line-height: 20px;
-
 }
         
      
@@ -631,7 +672,7 @@ img{
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px; 
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     } 
     
 .display{
@@ -674,7 +715,6 @@ footer{
     }
     p{
     font-size: 16px;
-    line-height: 14px;
     }
     
 .ticker__item {
@@ -695,10 +735,13 @@ footer{
     }
     
     .lastp{
-    
         display: block;
-        padding-bottom: 30px;
-    }    
+        padding-bottom: 60px;
+    } 
+    
+    .null{
+        display: none;
+    }
 }
 
 
