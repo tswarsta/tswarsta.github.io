@@ -15,8 +15,25 @@ html {
     float: none !important;
     overflow: inherit;
     overflow-x: hidden;
+/*    cursor: url(http://payload331.cargocollective.com/1/13/432646/8929921/cursor.png), auto;*/
 }
 
+/*
+.entry[data-id="8929921"] .project_content a:hover {
+	background: none;
+    cursor: url(http://payload204.cargocollective.com/1/13/432646/6388788/ik.png), auto;
+    letter-spacing: 12px;
+    transition:.35s; 
+    transition-timing-function: ease-out;
+}
+.entry[data-id="6388788"] .project_content a:hover {
+	background: none;
+    cursor: url(http://payload204.cargocollective.com/1/13/432646/6388788/act2.png), auto;
+    letter-spacing: 12px;
+    transition:.35s; 
+    transition-timing-function: ease-out;
+}
+*/
 
 /* HEADER/ FOOTER */
 header{
