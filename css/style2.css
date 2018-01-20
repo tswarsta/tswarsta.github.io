@@ -5,9 +5,6 @@
     src: url(VT323-Regular.ttf);
 } 
 
-
-
-
 html {
     max-width: 1680px;
     max-height: 1000px;
@@ -15,9 +12,26 @@ html {
     float: none !important;
     overflow: inherit;
     overflow-x: hidden;
-    background-color: black;
+    background: black;
+/*    cursor: url(http://payload331.cargocollective.com/1/13/432646/8929921/cursor.png), auto;*/
 }
 
+/*
+.entry[data-id="8929921"] .project_content a:hover {
+	background: none;
+    cursor: url(http://payload204.cargocollective.com/1/13/432646/6388788/ik.png), auto;
+    letter-spacing: 12px;
+    transition:.35s; 
+    transition-timing-function: ease-out;
+}
+.entry[data-id="6388788"] .project_content a:hover {
+	background: none;
+    cursor: url(http://payload204.cargocollective.com/1/13/432646/6388788/act2.png), auto;
+    letter-spacing: 12px;
+    transition:.35s; 
+    transition-timing-function: ease-out;
+}
+*/
 
 /* HEADER/ FOOTER */
 header{
@@ -27,6 +41,7 @@ header{
     font-family: vt323;
     font-size: 16px;
     color: white; 
+    
 }
 
 
@@ -139,7 +154,7 @@ a div img{
     padding-bottom: 750px;
     font-size: 16px;
     line-height: 20px;
-
+    color: white;
 }
 
 .firstp{
@@ -200,8 +215,13 @@ img{
     padding-right: 20px;
 }
 
+.inverts{
+    display: block;
+}
 
-
+.invertm{
+    display: none;
+}
 
 /* HOVER STATES */
 
@@ -228,7 +248,7 @@ a.header:hover{
 }
 
 a.header: link{
-    color: white;
+    color: black;
     cursor: pointer;
     text-transform: underline;
 }
@@ -253,7 +273,24 @@ a.header:visited{
     margin-top: 40.25vh;
     width: 50%;
     z-index: 100;
-    color: white;
+}
+
+
+.aboutmenu {
+   
+    position: fixed;
+/*    margin-left:20px;*/
+    margin-top: 40.25vh;
+    width: 50%;
+    z-index: 100;
+}
+
+.aboutmenu2 {
+
+/*    margin-left:20px;*/
+    margin-top: 40.25vh;
+    width: 100%;
+    z-index: 100;
 }
 
 .sp, .sppb, .sp9, .spa, .sp10, .sp910, .spab {
@@ -263,7 +300,6 @@ a.header:visited{
     margin-top: 40.25vh;
     width: 23vw;
     z-index: 10;
-    color: white;
     
 }
 
@@ -345,7 +381,7 @@ a.header:visited{
   
   width: 100%;
   overflow: hidden;
-  padding-left: 100%;
+  padding-left: 200%;
 }
 
 .ticker {
@@ -360,19 +396,18 @@ a.header:visited{
   animation-timing-function: linear;
   -webkit-animation-name: ticker;
   animation-name: ticker;
-  -webkit-animation-duration: 30s;
-  animation-duration: 30s;
+  -webkit-animation-duration: 25s;
+  animation-duration: 25s;
 }
 
 
 
 .ticker__item {
-
-  margin-top: 42vh;
+  margin-top: 40.25vh;
   font-size: 16px;
     font-family: vt323;
   display: inline-block;
-color: white;
+ color: white;
   text-transform: uppercase;
   }
 
@@ -417,7 +452,6 @@ li{
 	font-family: vt323;
 	font-size: 16px;
 	color: white;
-	
 
 	
 }
@@ -442,7 +476,7 @@ li{
     padding-bottom: relative;
 	overflow: hidden;
 
-	color: white;
+	
 
 	-webkit-transition: all .1s ease .0005s;
 	-moz-transition: all .1s ease .0005s;
@@ -479,6 +513,11 @@ li{
 	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
     
     
+.aboutmenu2{
+    position: inherit;
+    margin-top: 0vw;
+    width: 100%;
+    z-index: 100;
 }
 
 /* Hide the scrollbar in Webkit */
@@ -564,7 +603,7 @@ html[data-view="project"].ios body {
 }
 
 @media only screen and (max-width: 1281px){
-   
+  
 p{
         font-size: 16px;
         line-height:14px;
@@ -579,11 +618,11 @@ p{
 }
 
 @media only screen and (max-width: 1026px){
-     h2{
+    h2{
         font-size: 36px;
         padding-bottom: 24px;
     }
-       
+    
     .invert{
         margin-left: 75.5vw;
     }
@@ -624,7 +663,15 @@ h2{
 }
 
 @media only screen and (max-width: 851px){
-h2{
+    .inverts{
+        display: none;
+    }
+    
+    .invertm{
+        display: inline-block;
+    }
+    
+    h2{
         font-size: 16px;
         padding-bottom: 16px;
     }
@@ -639,7 +686,9 @@ h1{
         display: none;
     }
 .mobilenav{
+    z-index: 50;
         display: block;
+    position: fixed;
     }
 .firstp{
         display: none;
