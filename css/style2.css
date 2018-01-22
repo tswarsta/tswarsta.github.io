@@ -494,7 +494,29 @@ li{
 
 
 
+/* Hide the scrollbar in Webkit */
+body[data-view="project"]::-webkit-scrollbar {
+	display: none;
+}
 
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+
+}
+
+::-webkit-scrollbar-thumb {
+   background: #ffffff;
+        border-right: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+        border-right: 1px solid white;
+    border-left: 1px solid white;
+}
 
 
 
@@ -520,28 +542,6 @@ li{
     z-index: 100;
 }
 
-/* Hide the scrollbar in Webkit */
-body[data-view="project"]::-webkit-scrollbar {
-	display: none;
-}
-
-::-webkit-scrollbar {
-  width: 0.5em;
-  height: 0.5em;
-}
-
-::-webkit-scrollbar-thumb {
-   background: #000000;
-        border-right: 1px solid #000000;
-    border-left: 1px solid #000000;
-
-}
-
-::-webkit-scrollbar-track {
-  background: #ffffff;
-        border-right: 1px solid #000000;
-    border-left: 1px solid #000000;
-}
 
 
 
