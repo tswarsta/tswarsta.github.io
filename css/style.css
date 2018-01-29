@@ -71,18 +71,6 @@ footer{
 
 }
 
-.invert{
-    text-align: right;
-    position: fixed;
-    bottom: 0;
-    padding-bottom: 20px;    
-    margin-left: 75vw;
-    overflow:hidden;
-    font-family: vt323;
-    font-size: 16px;
-
-}
-
 
 
 
@@ -102,7 +90,7 @@ p{
     font-family: helvetica neue;
     font-size: 24px;
     padding-bottom: 20px;
-    line-height: 24px;
+    line-height: 26.4px;
 }
 h1{
     z-index: 99;
@@ -116,31 +104,6 @@ h2{
     font-size: 54px;
     padding-bottom: 35px;
 }
-
-
-a div { 
-    display: none; 
-}
-
-a:hover div {
-     z-index: -100;
-    display: block;
-    position: relative;
-    position: absolute;
-   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-a div img{
-    padding-top:0px;
-    padding-bottom: 0px;
-    padding-left: 0vw;
-}
-
-
-
-
 
 .caption{
     font-family: vt323;
@@ -235,20 +198,20 @@ a:hover{
 }
 
 a.header:hover{
-    text-decoration: overline;
+
     cursor: pointer;
 }
 
 a.header: link{
     color: black;
     cursor: pointer;
-    text-transform: underline;
+    
 }
 
 a.header:visited{
     color: black;
     cursor: pointer;
-    text-transform: underline;
+    
 }
 
 /* PARALLAX TEST*/
@@ -263,18 +226,25 @@ a.header:visited{
     position: fixed;
 /*    margin-left:20px;*/
     margin-top: 40.25vh;
-    width: 50%;
+    width: 10%;
     z-index: 100;
 }
 
 
+
+
 .aboutmenu {
-   
-    position: fixed;
+   position: fixed;
 /*    margin-left:20px;*/
     margin-top: 40.25vh;
-    width: 50%;
-    z-index: 100;
+    z-index: -100;   
+}
+
+.aboutabout {
+   position: fixed;
+/*    margin-left:20px;*/
+    margin-top: 40.25vh;
+    z-index: 100;   
 }
 
 .aboutmenu2 {
@@ -578,7 +548,7 @@ html[data-view="project"].ios body {
 @media only screen and (max-width: 1441px){
     p{
         font-size: 18px;
-        line-height:15px;
+        line-height:19.8px;
     }
 .caption{
     padding-bottom: 650px;
@@ -595,7 +565,7 @@ html[data-view="project"].ios body {
   
 p{
         font-size: 16px;
-        line-height:14px;
+        line-height:17.6px;
     }   
 .caption{
     padding-bottom: 550px;
@@ -641,6 +611,7 @@ h2{
     }
     p{
         font-size: 16px;
+        line-height: 17.6px;
     }
 .caption{
     padding-bottom: 400px;

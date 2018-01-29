@@ -73,19 +73,6 @@ footer{
 
 }
 
-.invert{
-    text-align: right;
-    position: fixed;
-    bottom: 0;
-    padding-bottom: 20px;    
-    margin-left: 75vw;
-    overflow:hidden;
-    font-family: vt323;
-    font-size: 16px;
-    color: white;
-
-}
-
 
 
 
@@ -106,7 +93,7 @@ p{
     font-family: helvetica neue;
     font-size: 24px;
     padding-bottom: 20px;
-    line-height: 24px;
+    line-height: 26.4px;
     color: white;
 }
 h1{
@@ -123,31 +110,6 @@ h2{
     padding-bottom: 35px;
     color: white;
 }
-
-
-a div { 
-    display: none; 
-}
-
-a:hover div {
-     z-index: -100;
-    display: block;
-    position: relative;
-    position: absolute;
-   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-a div img{
-    padding-top:0px;
-    padding-bottom: 0px;
-    padding-left: 0vw;
-}
-
-
-
-
 
 .caption{
     font-family: vt323;
@@ -243,20 +205,20 @@ a:hover{
 }
 
 a.header:hover{
-    text-decoration: overline;
+
     cursor: pointer;
 }
 
 a.header: link{
-    color: black;
+    color: white;
     cursor: pointer;
-    text-transform: underline;
+    
 }
 
 a.header:visited{
     color: white;
     cursor: pointer;
-    text-transform: underline;
+    
 }
 
 /* PARALLAX TEST*/
@@ -271,18 +233,25 @@ a.header:visited{
     position: fixed;
 /*    margin-left:20px;*/
     margin-top: 40.25vh;
-    width: 50%;
+    width: 10%;
     z-index: 100;
 }
 
 
+
+
 .aboutmenu {
-   
-    position: fixed;
+   position: fixed;
 /*    margin-left:20px;*/
     margin-top: 40.25vh;
-    width: 50%;
-    z-index: 100;
+    z-index: -100;   
+}
+
+.aboutabout {
+   position: fixed;
+/*    margin-left:20px;*/
+    margin-top: 40.25vh;
+    z-index: 100;   
 }
 
 .aboutmenu2 {
@@ -419,10 +388,12 @@ a.header:visited{
 .mobilenav{
     display: none;
     font-family: vt323;
+    color: white;
     
 }
 li{
     font-family: vt323;
+    color: white;
 }
 .nav a { text-decoration: none; }
 
@@ -494,29 +465,7 @@ li{
 
 
 
-/* Hide the scrollbar in Webkit */
-body[data-view="project"]::-webkit-scrollbar {
-	display: none;
-}
 
-::-webkit-scrollbar {
-  width: 0.5em;
-  height: 0.5em;
-
-}
-
-::-webkit-scrollbar-thumb {
-   background: #ffffff;
-        border-right: 1px solid #ffffff;
-    border-left: 1px solid #ffffff;
-
-}
-
-::-webkit-scrollbar-track {
-  background: #000000;
-        border-right: 1px solid white;
-    border-left: 1px solid white;
-}
 
 
 
@@ -534,14 +483,33 @@ body[data-view="project"]::-webkit-scrollbar {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
     
-    
-.aboutmenu2{
-    position: inherit;
-    margin-top: 0vw;
-    width: 100%;
-    z-index: 100;
 }
 
+
+
+
+/* Hide the scrollbar in Webkit */
+body[data-view="project"]::-webkit-scrollbar {
+	display: none;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+   background: white;
+        border-right: 1px solid white;
+    border-left: 1px solid white;
+
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+        border-right: 1px solid white;
+    border-left: 1px solid white;
+}
 
 
 
@@ -589,7 +557,7 @@ html[data-view="project"].ios body {
 @media only screen and (max-width: 1441px){
     p{
         font-size: 18px;
-        line-height:15px;
+        line-height:19.8px;
     }
 .caption{
     padding-bottom: 650px;
@@ -606,7 +574,7 @@ html[data-view="project"].ios body {
   
 p{
         font-size: 16px;
-        line-height:14px;
+        line-height:17.6px;
     }   
 .caption{
     padding-bottom: 550px;
@@ -652,6 +620,7 @@ h2{
     }
     p{
         font-size: 16px;
+        line-height: 17.6px;
     }
 .caption{
     padding-bottom: 400px;
@@ -663,6 +632,12 @@ h2{
 }
 
 @media only screen and (max-width: 851px){
+    .aboutmenu2{
+    position: inherit;
+    margin-top: 0vw;
+    width: 100%;
+    z-index: 100;
+}
     .inverts{
         display: none;
     }
