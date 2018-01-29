@@ -237,7 +237,8 @@ a.header:visited{
    position: fixed;
 /*    margin-left:20px;*/
     margin-top: 44.75vh;
-    z-index: -100;   
+    z-index: -100;
+   
 }
 
 .aboutabout {
