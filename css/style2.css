@@ -232,7 +232,7 @@ a.header:visited{
     display: none;
     position: fixed;
 /*    margin-left:20px;*/
-    margin-top: 40.25vh;
+    margin-top: 44.75vh;
     width: 10%;
     z-index: 100;
 }
@@ -243,21 +243,21 @@ a.header:visited{
 .aboutmenu {
    position: fixed;
 /*    margin-left:20px;*/
-    margin-top: 40.25vh;
+    margin-top: 44.75vh;
     z-index: -100;   
 }
 
 .aboutabout {
    position: fixed;
 /*    margin-left:20px;*/
-    margin-top: 40.25vh;
+    margin-top: 44.75vh;
     z-index: 100;   
 }
 
 .aboutmenu2 {
 
 /*    margin-left:20px;*/
-    margin-top: 40.25vh;
+    margin-top: 44.75vh;
     width: 100%;
     z-index: 100;
 }
@@ -266,7 +266,7 @@ a.header:visited{
     display: none;
     position: fixed;
 /*    padding-left: 75vw;*/
-    margin-top: 40.25vh;
+    margin-top: 44.75vh;
     width: 23vw;
     z-index: 10;
     
@@ -372,7 +372,7 @@ a.header:visited{
 
 
 .ticker__item {
-  margin-top: 40.25vh;
+  margin-top: 44.75vh;
   font-size: 16px;
     font-family: vt323;
   display: inline-block;
@@ -534,7 +534,7 @@ html[data-view="project"].ios body {
     .sp, .sppb, .sp9, .spa {
     display: none;
     position: fixed;
-    margin-top: 42vh;
+    
     width: 23vw;
     z-index: 10; 
 }
