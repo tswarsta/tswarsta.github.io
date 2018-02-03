@@ -99,11 +99,7 @@ h1{
     padding-bottom: 12px;
 }
 
-h2{
-    font-family: helvetica neue;
-    font-size: 54px;
-    padding-bottom: 35px;
-}
+
 
 .caption{
     font-family: vt323;
@@ -578,10 +574,7 @@ p{
 }
 
 @media only screen and (max-width: 1026px){
-    h2{
-        font-size: 36px;
-        padding-bottom: 24px;
-    }
+   
     
     .invert{
         margin-left: 75.5vw;
@@ -606,10 +599,7 @@ p{
 }
 
 @media only screen and (max-width: 961px){
-h2{
-        font-size: 24px;
-        padding-bottom: 22px;
-    }
+
     p{
         font-size: 16px;
         line-height: 17.6px;
@@ -630,6 +620,10 @@ h2{
     width: 100%;
     z-index: 100;
 }
+    
+    .aboutmenu{
+display: none;}
+    
     .inverts{
         display: none;
     }
@@ -638,10 +632,7 @@ h2{
         display: inline-block;
     }
     
-    h2{
-        font-size: 16px;
-        padding-bottom: 16px;
-    }
+  
 h1{
     padding-top: 12px;
     padding-left:10px;
@@ -710,6 +701,7 @@ img{
 footer{
         padding-left: 10px;
         padding-bottom: 10px;
+    
     }
 
 .mobilenav{
@@ -735,12 +727,13 @@ footer{
     
 .ticker__item {
 
-  margin-top: 29.5vh;
+  display: none;
 }
     
 .bottomMenu{
         margin-left: 0px;
-        margin-top: 27.75vh;
+        margin-top: 50vh;
+    width: 100%;
         
     }
 .hidem{

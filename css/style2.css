@@ -743,12 +743,14 @@ footer{
     
 .ticker__item {
 
-  margin-top: 29.5vh;
+  display: none;
+
 }
     
 .bottomMenu{
         margin-left: 0px;
-        margin-top: 27.75vh;
+        margin-top: 50vh;
+        width: 100%;
         
     }
 .hidem{
@@ -766,6 +768,9 @@ footer{
     .null{
         display: none;
     }
+    
+    .aboutmenu{
+display: none;}
 }
 
 
