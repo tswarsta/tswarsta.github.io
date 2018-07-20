@@ -12,6 +12,7 @@ html {
     float: none !important;
     overflow: inherit;
     overflow-x: hidden;
+    background: white;
 /*    cursor: url(http://payload331.cargocollective.com/1/13/432646/8929921/cursor.png), auto;*/
 }
 
