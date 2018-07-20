@@ -13,6 +13,7 @@ html {
     overflow: inherit;
     overflow-x: hidden;
     background: black;
+    
 /*    cursor: url(http://payload331.cargocollective.com/1/13/432646/8929921/cursor.png), auto;*/
 }
 
@@ -639,7 +640,7 @@ font-family: helvetica neue;
     overflow:hidden;
     font-family:  helvetica neue;
     font-size: 16px;
-    color: black;
+    
    
 }
 
@@ -653,7 +654,7 @@ font-family: helvetica neue;
     color: black;
 }
 
-#menu a:visited{
+#menu a:link{
     color: black;
 }
 

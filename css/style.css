@@ -572,6 +572,7 @@ html[data-view="project"].ios body {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
+    color: black;
 
   
   z-index: 1;
