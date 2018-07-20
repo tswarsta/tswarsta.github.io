@@ -2,6 +2,7 @@ $.fn.moveIt = function(){
   var $window = $(window);
   var instances = [];
   
+    
   $(this).each(function(){
     instances.push(new moveItItem($(this)));
   });
@@ -12,7 +13,7 @@ $.fn.moveIt = function(){
       inst.update(scrollTop);
     });
   }
-}
+
 
 var moveItItem = function(el){
   this.el = $(el);
@@ -22,6 +23,7 @@ var moveItItem = function(el){
 moveItItem.prototype.update = function(scrollTop){
   this.el.css('transform', 'translateY(' + -(scrollTop / this.speed) + 'px)');
 };
+}
 
 // Initialization
 $(function(){
