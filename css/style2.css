@@ -993,7 +993,20 @@ footer{
         margin-top: 49vh;
     }
     
- 
+    h1 a:link{
+    text-decoration: underline;
 }
 
+h1 a:visited{
+    color: white;
+    text-decoration: underline;
+}
+
+h1 a:hover{
+    text-transform: uppercase;
+    cursor: pointer;
+}
+    
+    
+}
 
