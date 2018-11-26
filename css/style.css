@@ -35,8 +35,8 @@ html {
 
 /* HEADER/ FOOTER */
 header{
-    margin-left: 20px;
-    margin-top: 20px;
+/*    margin-left: 20px;*/
+/*    margin-top: 20px;*/
     padding-bottom: 20px;
     font-family:  helvetica neue;
     font-size: 16px;
@@ -47,7 +47,7 @@ header{
 
 .top{
   z-index: 99;
-  position: fixed; width: 100%; top: 20px; height: 100px;
+  position: fixed; width: 100%; height: 100px;
 }
 
 .push{
@@ -84,7 +84,7 @@ footer{
     overflow:hidden;
     font-family:  helvetica neue;
     font-size: 16px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
  
 
 }
@@ -106,7 +106,7 @@ footer{
 /* CONTENT */
 p{
   
-    padding-right: 20px;
+/*    padding-right: 20px;*/
     font-family: helvetica neue;
     font-size: 24px;
     padding-bottom: 20px;
@@ -116,7 +116,7 @@ h1{
     z-index: 99;
     font-family:  helvetica neue;
     font-size: 16px;
-    padding-bottom: 12px;
+/*    padding-bottom: 12px;*/
 }
 
 
@@ -141,8 +141,10 @@ img{
     width: 75vw;
     padding-left: 11.8vw;
 */
+/*
     padding-top: 25px;
     padding-bottom: 25px;
+*/
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -151,14 +153,18 @@ img{
 
 .display{
     width: 45vw;
+/*
     padding-top: 40px;
     padding-bottom: 40px;
+*/
+/*
     padding-left: 20px;
     padding-right: 20px;
+*/
 }
 
 #postertop{
-    padding-top: 80px;
+/*    padding-top: 80px;*/
 }
 
 .mobileimg{
@@ -167,17 +173,23 @@ img{
 
 .video{
   
+/*
     padding-top: 25px;
     padding-left: 12.5vw;
+*/
 /*    padding-left: 25vw; */
+/*
     padding-right: 12.5vw;
     padding-bottom: 25px;
+*/
    
 }
 
 .animation{
+/*
     padding-top: 20px;
     padding-left: 10px;
+*/
     
   
 }
@@ -309,7 +321,7 @@ a.header:visited{
 	clear: both;
 	padding: 0px;
 	margin: 0px;
-    margin-left: 20px;
+/*    margin-left: 20px;*/
 }
 
 /*  COLUMN SETUP  */

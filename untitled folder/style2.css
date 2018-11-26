@@ -14,7 +14,6 @@ html {
     overflow-x: hidden;
     background: black;
     
-    
 /*    cursor: url(http://payload331.cargocollective.com/1/13/432646/8929921/cursor.png), auto;*/
 }
 
@@ -37,17 +36,16 @@ html {
 
 /* HEADER/ FOOTER */
 header{
-    margin-left: 0px;
-    margin-top: 0px;
-    padding-bottom: 0px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
     font-family:  helvetica neue;
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 16px;
     color: white; 
     
 }
 
-
+<style type="text/css">.crosshair{display:none;cursor:none}@media screen and (min-width:1000px){.crosshair{display:block;-webkit-transform-origin:50% 50%;transform-origin:50% 50%;position:fixed;pointer-events:none;z-index:1001;left:0;top:0;width:200vw;height:200vh}.crosshair:after,.crosshair:before{position:absolute;content:" ";width:1px;background-color:#ffffff}.crosshair:before{-webkit-transform:rotate(180deg);transform:rotate(180deg);height:200vh;left:50%}.crosshair:after{-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:rotate(-90deg);transform:rotate(-90deg);height:200vw;top:50%}}.scene,a,body{cursor:none}</style>
 
 .top{
   z-index: 99;
