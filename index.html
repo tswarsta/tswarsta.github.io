@@ -1,17 +1,64 @@
 <!DOCTYPE html>
 <html>
-<a name="top"></a>
    <head>
     <title>TREAT SWARSTAD</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-         <link id="stylesheet" rel="stylesheet" type="text/css" href="css/style2.css" />
-    <script src="script/invert.js"></script>
-     <script src="script/jquery.js"></script>
-     <script src="script/min.js"></script>   
-     <script src="script/btp.js"></script>  
-     <script src="script/sp.js"></script>
-     <style>@import url('https://fonts.googleapis.com/css?family=VT323');</style>
-     <script>
+    <link id="stylesheet" rel="stylesheet" type="text/css" href="css/style.css" />
+<!--    <script src="script/invert.js"></script>-->
+     <script type= "text/javascript" src="script/jquery.js"></script>
+ <script  type= "text/javascript" src="script/percentage.js"></script>
+  <script type= "text/javascript" src="script/jquery.js"></script>
+ <script src="script/cursor.js"></script>
+ <script type="text/javascript" src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
+
+  <link rel='stylesheet' href='https://npmcdn.com/flickity@2/dist/flickity.css'>
+<script type= "text/javascript" src="script/btp.js"></script>
+<!--<script src="script/index.js"></script>-->
+
+ <script type="text/javascript">
+ window.onload=function(){
+      
+// external js: flickity.pkgd.js
+
+var carouselContainers = document.querySelectorAll('.carousel-container');
+
+for ( var i=0; i < carouselContainers.length; i++ ) {
+  var container = carouselContainers[i];
+  initCarouselContainer( container );
+}
+
+function initCarouselContainer( container ) {
+  var carousel = container.querySelector('.carousel');
+  var flkty = new Flickity( carousel, {
+    imagesLoaded: true,
+    percentPosition: false,
+    pageDots: false,
+    adaptiveHeight: true
+  });
+  var carouselStatus = container.querySelector('.carousel-status');
+
+  function updateStatus() {
+    var slideNumber = flkty.selectedIndex + 1;
+    carouselStatus.textContent= slideNumber + '/' + flkty.slides.length;}
+  updateStatus();
+  
+  var previousButton = container.querySelector('.carousel--prev');
+  previousButton.addEventListener('click', function () {
+    flkty.previous();
+  });
+  
+  var nextButton = container.querySelector('.carousel--next');
+  nextButton.addEventListener('click', function () {
+    flkty.next();
+  });
+
+  flkty.on( 'select', updateStatus ); 
+}}
+</script>
+<script src="script/invert.js"></script>
+
+ <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -19,177 +66,253 @@
 
   ga('create', 'UA-89498540-1', 'auto');
   ga('send', 'pageview');
-
 </script>
- <meta name="description" content="Treat is a designer born on Halloween (Trick or Treat). He graduated from Carnegie Mellon University, previously worked at OCD and is currently based in New York." /> 
-   <link rel='shortcut icon' href=fav.png type='image/x-icon' />
-  
+
+
+
+
 </head>
 
+<div id="crosshair-h" class="hair"></div>
+<div id="crosshair-v" class="hair"></div>
 
-<!--<div class="desktopnav">-->
 <header>
-<!--
-    <div class="top">
-    <h1>SELECT WORK</h1>
+
+<div class="section group">
+	<div class="col span_3_of_6">
+	<div class="item">
+	<a href="info.html"><p class="label success new-label"><span class="align">TREAT SWARSTAD</span></p></a></div>
     </div>
-    <div class="push"></div> 
-    BRB
--->
-TREAT SWARSTAD<br><br>ƃɹɐdɥıɔdǝsıƃnnʎɔ<br><br>treatswarstad.net<br>
-treatswarstad@gmail.com<br>
-<a href="https://www.instagram.com/lordswarstad/" target="_blank">@lordswarstad</a><br><br><br>brb (26/11/2018)
+    <div class="mobile">
+	<div class="col span_2_of_6">
+<!--	<a href="archive.html">ARCHIVE</a>-->
+	</div>
+	<div class="col span_1_of_6">
+	UPDATED 2018/12/07
+    </div></div>
+</div>
 </header>
-
-<!--
- <nav>
-    <div class="section group">
-	<div class="col span_1_of_6">
-	<ul><li>
-     <ul>
-      <li><a href="hidinginplainsite.html">Hiding in Plain Site</a></li>
-      <li><a href="pheno.html">Pheno</a></li>
-      <li><a href="assemblage.html">Assemblage</a></li>
-     <li class="breakp2"><a href="ocd.html">OCD Internship</a></li>
-       <li class="breakp2"><a href="AIGA%20Design%20Census.html">AIGA Design Census</a></li>  
-     
-
-        </ul></li></ul>
-	</div>
-	
-	<div class="col span_1_of_6">
-	  <ul>
-      <ul>
-      <li class="breakp"><a href="ocd.html">OCD Internship</a></li>
-       <li class="breakp"><a href="AIGA%20Design%20Census.html">AIGA Design Census</a></li>
-       <li class="breakp"><a href="Facebook%20Lenses.html">Facebook Lenses</a></li>
-  
-      
-    </ul></ul>
-	</div>
-	
-	<div class="col span_1_of_6">
-      <ul>
-      <ul>
-       <li class="breakp2"><a href="Facebook%20Lenses.html">Facebook Lenses</a></li>
-      <li><a href="Porcelain%20Baby.html">Porcelain Baby</a></li>
-      <li><a href="Lower%209th%20Ward%20+%2010.html">Re Re Re</a></li>
-          <li><a href="Paint%20the%20Pavement.html">Paint the Pavement</a></li>
-      
-      
-    </ul></ul>
-	</div>
-        <div class="col span_1_of_6"></div>
-        <div class="col span_1_of_6"></div>
-	<div class="col span_1_of_6">
-      <ul>
-      <ul>
-      <li><a href="personal.html">Etc</a></li>
-      <li><a href="images/swarstad_resume_072718.pdf" target="_blank">Resume</a></li>
-    </ul></ul>
-	</div>
-</div>
-</nav>
-</div>
-
-
-<nav class="mobilenav">
-  <div id="menuToggle">
-   
-    <input type="checkbox" />
-    
- <span>Select Work</span>
-    <ul id="menu">
- <li><a href="hidinginplainsite.html">Hiding in Plain Site</a></li>
-      <li><a href="pheno.html">Pheno</a></li>
-      <li><a href="assemblage.html">Assemblage</a></li>
-          <li><a href="ocd.html">OCD Internship</a></li>
-       <li><a href="AIGA%20Design%20Census.html">AIGA Design Census</a></li> 
-        <li><a href="Facebook%20Lenses.html">Facebook Lenses</a></li>
-      <li><a href="Porcelain%20Baby.html">Porcelain Baby</a></li>
-      <li><a href="Lower%209th%20Ward%20+%2010.html">Re Re Re</a></li>
-          <li><a href="Paint%20the%20Pavement.html">Paint the Pavement</a></li> 
-                <li><a href="personal.html">Etc</a></li><br>
-      <li><a href="images/swarstad_resume_072718.pdf" target="_blank">Resume</a></li>
-      <li class="foot"><a href="index.html" style="text-transform: uppercase">Treat Swarstad</a></li>
-    
-      
-    </ul>
-    
-    
+<!--<br><br><br><br>-->
+<body>
+<br>
+<div class="mobilebreak"><br><br></div>
+<!-- /* HIDING IN PLAIN SITE */    -->
+     <div class="section group"><div class="col
+         span_1_of_6"></div><div class="col span_1_of_6"><p>HIDING IN PLAIN SITE<br><br>Exhibition<br>2018</p><p class="mobile"><br><br><br>Surveillance has become a business model, we have become a product.</p></div><div class="col span_4_of_6">
+<div class="carousel-container">
+  <div class="carousel" data-flickity='{ "wrapAround": true, "prevNextButtons": false, "pageDots": false, "selectedAttraction": 1.0, "friction": 1.0, "lazyLoad": 2 }'>
+  <img class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite1.jpg">
+    <img class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite2.jpg">
+    <img class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite3.jpg">
+    <img class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite4.jpg">   
+    <img class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite5.jpg">
+    <img class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite6.jpg">
+    <img class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite7.jpg">
+    <img  class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite8.jpg">
+    <img class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite9.png">
+    <img class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite10.png">
+    <img class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite11.png">
   </div>
-</nav>
--->
-
-
-
-
-
-<!--<div class="section group">-->
-
+  <div class="buttongroup">
+  <div class="carousel--prev">&#60;</div>
+      <div class="carousel--next">&#62;</div></div>
+  <p class="carousel-status"></p>
+     </div> 
+     </div></div>
+<!-- /* end of project */    -->
+<div class="mobilebreak"><br><br></div>
+<!-- /* PHENO */    -->
+     <div class="section group"><div class="col
+      span_1_of_6"></div><div class="col span_1_of_6"><p>PHENO<br><br>Typeface/ Specimen<br>2018</p><p class="mobile"><br><br><br>The first division and catalyst of an essential phenomenon.</p></div><div class="col span_4_of_6">
+<div class="carousel-container">
+  <div class="carousel" data-flickity='{ "wrapAround": true, "prevNextButtons": false, "pageDots": false, "selectedAttraction": 1.0, "friction": 1.0, "lazyLoad": 2 }'>
+  <img class="carousel-cell" data-flickity-lazyload="images/pheno/pheno1.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/pheno/pheno2.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/pheno/pheno3.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/pheno/pheno4.png">
 <!--
-	<div class="col span_3_of_6">
-	 
-	<h1 class="aboutmenu">INFO</h1><p class="formobile"> Treat is a designer born on Halloween (Trick or Treat) with experience in identity, spatial, interaction, digital and print design. Treat approaches projects with the belief that design must not only be accessible, but unconventional and experimental in order to be significant. He graduated from Carnegie Mellon University, previously worked at OCD and is currently working at x0.<br> PDF Portfolio available on request.</p>
-
-
-    <h1 class="forhomepage">INFO<br><br><a href="mailto:treatswarstad@gmail.com">treatswarstad@gmail.com</a><br><a href="images/swarstad_resume_072718.pdf" target="_blank">Resume</a><br><a href="https://www.instagram.com/lordswarstad/" target="_blank">Instagram</a><br><br>Treat is a designer born on Halloween (Trick or Treat). He graduated from Carnegie Mellon University, previously worked at OCD and is currently based in New York. PDF Portfolio available on request.</h1>
-
-	</div>
-
-	
-    <div class="col span_1_of_6"></div>	
-	
+ <div class="carousel-cell"><div style="padding:64.29% 0 0 0;position:relative; z-index:10;"><iframe src="https://player.vimeo.com/video/254078982?loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+ </div> 
 -->
-	
-	
-<!--
-	<div class="col span_1_of_6">
-	<div class="ticker-wrap">
-<div class="ticker">
-  <div class="ticker__item"><span>TREAT SWARSTAD</span></div>
-</div>
-</div>
-	</div>	
--->
-	
-<!--
-	
-	<div class="col span_1_of_6">
-<div class="aboutmenu">
-       <h1>LAST UPDATED&emsp;07/27/18</h1><h1><a href="mailto:treatswarstad@gmail.com">treatswarstad@gmail.com</a><br><a href="images/swarstad_resume_072718.pdf" target="_blank">Resume</a><br><a href="https://www.instagram.com/lordswarstad/" target="_blank">Instagram</a></h1></div>
-	</div>
-	
+  <img class="carousel-cell" src="images/pheno/pheno6.png">
+  </div>
+  <div class="buttongroup">
+  <div class="carousel--prev">&#60;</div>
+      <div class="carousel--next">&#62;</div></div>
+  <p class="carousel-status"></p>
+     </div>
+            
+     </div></div>
+<!-- /* end of project */    -->
+<div class="mobilebreak"><br><br></div>
+<!-- /* ADAGE */    -->
+     <div class="section group"><div class="col
+      span_1_of_6"></div><div class="col span_1_of_6"><p>ADAGE<br><br>Identity/ Web<br>OCD, 2017</p><p class="mobile"><br><br><br>The first division and catalyst of an essential phenomenon.</p></div><div class="col span_4_of_6">
+<div class="carousel-container">
+  <div class="carousel" data-flickity='{ "wrapAround": true, "prevNextButtons": false, "pageDots": false, "selectedAttraction": 1.0, "friction": 1.0, "lazyLoad": 2 }'>
+  <img class="carousel-cell" data-flickity-lazyload="images/adage/aa1.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/adage/aa2.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/adage/aa3.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/adage/aa4.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/adage/aa5.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/adage/aa6.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/adage/aa7.png">
+  </div>
+  <div class="buttongroup">
+  <div class="carousel--prev">&#60;</div>
+      <div class="carousel--next">&#62;</div></div>
+  <p class="carousel-status"></p>
+     </div>
+            
+     </div></div>
+<!-- /* end of project */    -->
+<div class="mobilebreak"><br><br></div>
+<!-- /* RUN FOR SOMETHING */    -->
+     <div class="section group"><div class="col
+      span_1_of_6"></div><div class="col span_1_of_6"><p>RUN FOR SOMETHING<br><br>Identity/ Web<br>OCD, 2017</p><p class="mobile"><br><br><br>The first division and catalyst of an essential phenomenon.</p></div><div class="col span_4_of_6">
+<div class="carousel-container">
+  <div class="carousel" data-flickity='{ "wrapAround": true, "prevNextButtons": false, "pageDots": false, "selectedAttraction": 1.0, "friction": 1.0, "lazyLoad": 2 }'>
+  <img class="carousel-cell" data-flickity-lazyload="images/rfs/rfs1.png">
+    <img class="carousel-cell" data-flickity-lazyload="images/rfs/rfs6.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/rfs/rfs2.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/rfs/rfs3.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/rfs/rfs4.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/rfs/rfs5.png">
+  </div>
+  <div class="buttongroup">
+  <div class="carousel--prev">&#60;</div>
+      <div class="carousel--next">&#62;</div></div>
+  <p class="carousel-status"></p>
+     </div>
+            
+     </div></div>
+<!-- /* end of project */    -->
+<div class="mobilebreak"><br><br></div>
+<!-- /* PORCELAIN BABY */    -->
+     <div class="section group"><div class="col
+      span_1_of_6"></div><div class="col span_1_of_6"><p>PORCELAIN BABY<br><br>Print<br>2017</p><p class="mobile"><br><br><br>A attempt to produce original content with <br>pre-existing forms and ideals of beauty.</p></div><div class="col span_4_of_6">
+<div class="carousel-container">
+  <div class="carousel" data-flickity='{ "wrapAround": true, "prevNextButtons": false, "pageDots": false, "selectedAttraction": 1.0, "friction": 1.0, "lazyLoad": 2 }'>
+  <img class="carousel-cell" data-flickity-lazyload="images/PB/pb1.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/PB/pb2.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/PB/pb3.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/PB/pb4.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/PB/pb5.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/PB/pb6.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/PB/pb7.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/PB/pb8.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/PB/pb9.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/PB/pb10.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/PB/pb11.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/PB/pb12.png">
+  </div>
+  <div class="buttongroup">
+  <div class="carousel--prev">&#60;</div>
+      <div class="carousel--next">&#62;</div></div>
+  <p class="carousel-status"></p>
+     </div>
+            
+     </div></div>
+<!-- /* end of project */    -->
+<div class="mobilebreak"><br><br></div>
+<!-- /* AIGA DESIGN CENSUS */    -->
+     <div class="section group"><div class="col
+      span_1_of_6"></div><div class="col span_1_of_6"><p>AIGA DESIGN CENSUS<br><br>Identity/ Web<br>2017</p><p class="mobile"><br><br><br>The system references LED screens – how individual pixels shine alone, but create a larger idea once unified.</p></div><div class="col span_4_of_6">
+<div class="carousel-container">
+  <div class="carousel" data-flickity='{ "wrapAround": true, "prevNextButtons": false, "pageDots": false, "selectedAttraction": 1.0, "friction": 1.0, "lazyLoad": 2 }'>
+  <img class="carousel-cell" data-flickity-lazyload="images/aiga/aiga1.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/aiga/aiga2.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/aiga/aiga3.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/aiga/aiga4.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/aiga/aiga5.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/aiga/aiga6.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/aiga/aiga7.png">
+
+  </div>
+  <div class="buttongroup">
+  <div class="carousel--prev">&#60;</div>
+      <div class="carousel--next">&#62;</div></div>
+  <p class="carousel-status"></p>
+     </div>
+            
+     </div></div>
+<!-- /* end of project */    -->
+<div class="mobilebreak"><br><br></div>
+<!-- /* RE RE RE */    -->
+     <div class="section group"><div class="col
+      span_1_of_6"></div><div class="col span_1_of_6"><p>RE RE RE<br><br>Print<br>2016</p><p class="mobile"><br><br><br>A THIS AMERICAN LIFE podcast interviewing residents of the Lower Ninth Ward, 10 years after Hurricane Katrina. </p></div><div class="col span_4_of_6">
+<div class="carousel-container">
+  <div class="carousel" data-flickity='{ "wrapAround": true, "prevNextButtons": false, "pageDots": false, "selectedAttraction": 1.0, "friction": 1.0, "lazyLoad": 2 }'>
+  <img class="carousel-cell" data-flickity-lazyload="images/re3/re1.png">
+<img class="carousel-cell" data-flickity-lazyload="images/re3/re2.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/re3/re3.png">
+    <img class="carousel-cell" data-flickity-lazyload="images/re3/re4.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/re3/re5.png">
+    <img class="carousel-cell" data-flickity-lazyload="images/re3/re6.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/re3/re7.png">
+    <img class="carousel-cell" data-flickity-lazyload="images/re3/re8.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/re3/re9.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/re3/re10.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/re3/re11.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/re3/re12.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/re3/re13.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/re3/re14.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/re3/re15.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/re3/re16.png">
+
+
+  </div>
+  <div class="buttongroup">
+  <div class="carousel--prev">&#60;</div>
+      <div class="carousel--next">&#62;</div></div>
+  <p class="carousel-status"></p>
+     </div><div class="mobilebreak"><br></div>
+   <br> ©Treat Swarstad 2018
+     </div></div>
+<!-- /* end of project */    -->
+     
  
-</div>
--->
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "5g4ch0g9"
+      }], "*")
+    }
+  </script>
+  
+  
 
+</body>
+   
+<div id="bottom"></div>
     
-
-
-<!--
-<footer class="desktopfoot"><div class="section group">
-	<div class="col span_3_of_6">
-	
-	<a href="index.html" class="header" style="text-transform: uppercase">Treat Swarstad</a>
+<footer><div class="section group">
+	<div class="col span_3_of_6"><div class="mobile">
+        <div class="bottomMenu"><a href="#top">BACK TO TOP</a></div></div>
 	</div>
    
-    <div class="col span_1_of_6"></div>
-    <div class="col span_1_of_6"></div>
+    <div class="col span_2_of_6">
+    <div id="scrollPercentLabel"><span>0</span>%</div>
 
+    </div>
+<div class="mobile">
 	<div class="col span_1_of_6">
-	
-	<a id="toggle" class="inverts" onclick="setStyleSheet()" href="#">Invert<span class="blink_text"> (click me)</span></a> 
-    </div></div></footer>
-    
-<footer class="mobilefoot"><div class="section group">
-	<div class="col span_1_of_2">
-	
-	<a href="index.html" class="header" style="text-transform: uppercase">Treat Swarstad</a>
-	</div>
-
-	</div></footer>
--->
-
+	<a id="toggle" onclick="setStyleSheet()" href="#">INVERT</a></div></div></div></footer>
 </html>    
+
+
