@@ -15,7 +15,7 @@ html {
     font-family: Helvetica Neue;
     font-size: 24px;
     
-    background-color: white;
+    background-color: #c0c0c0;
     color: black;
 }
 
@@ -67,7 +67,7 @@ a:hover{
     cursor: default;
 /*  cursor: pointer;*/
   color: black;
-  text-shadow: 0px 0px 10px #c9f234, 0 0 1em #c9f234, 0 0 1em #c9f234;
+  text-shadow: 0px 0px 10px black, 0 0 1em black, 0 0 1em black;
   mix-blend-mode:difference;
 }
 
@@ -115,7 +115,7 @@ body[data-view="project"]::-webkit-scrollbar {
 }
 
 ::-webkit-scrollbar-track {
-  background: white; 
+  background: #c0c0c0; 
 }
 
 html[data-view="project"].ios body {
@@ -151,13 +151,13 @@ html[data-view="project"].ios body {
 /* external css: flickity.css */
 .video{
 /*    height: 81.965214vh;*/
-    height:82.2246455834242vh;
+/*    height:82.2246455834242vh;*/
 
     
 }
 
 #top, #bottom, #left, #right {
-	background: #ffffff;
+	background: #c0c0c0;
 	position: fixed;
     mix-blend-mode:difference;
     box-shadow:0px 0px 10px black, 0 0 1em black, 0 0 1em black;
@@ -278,7 +278,7 @@ body {
 
   .carousel--prev:hover, .carousel--next:hover {
    cursor: default;
-      text-shadow: 0px 0px 10px #c9f234, 0 0 1em #c9f234, 0 0 1em #c9f234;
+      text-shadow: 0px 0px 10px black, 0 0 1em black, 0 0 1em black;
   mix-blend-mode:difference;
     }
 
@@ -360,7 +360,12 @@ padding-right: 0px;
         text-align: right;
         align-items: right;
     width: 100%;
-    }  
+    } 
+    
+#crosshair-h{display: none;}
+#crosshair-v{display: none;}
+
+.hair{   display: none;}
 }
 
 @media only screen and (min-width: 3000px) {
