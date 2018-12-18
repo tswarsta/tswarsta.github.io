@@ -20,7 +20,7 @@
   ga('create', 'UA-89498540-1', 'auto');
   ga('send', 'pageview');
 </script>
-
+<script src="script/invert.js"></script>
 </head>
 
 
@@ -67,16 +67,16 @@
 <!--<div class="crosshair"></div>-->
 
 <footer><div class="section group">
-	<div class="col span_3_of_6">
+	<div class="col span_3_of_6"><div class="mobile">
+        <div class="bottomMenu"><a href="#top">BACK TO TOP</a></div></div>
 	</div>
    
     <div class="col span_2_of_6">
     <div id="scrollPercentLabel"><span>0</span>%</div>
 
     </div>
-
+<div class="mobile">
 	<div class="col span_1_of_6">
-	<div class="mobile">INVERT</div>
-    </div></div></footer>
+	<a id="toggle" onclick="setStyleSheet()" href="#">INVERT</a></div></div></div></footer>
     <div id="bottom"></div>
 </html>    

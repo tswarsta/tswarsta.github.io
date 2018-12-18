@@ -120,7 +120,7 @@ body[data-view="project"]::-webkit-scrollbar {
 }
 
 ::-webkit-scrollbar-track {
-  background: #000000; 
+  background: #0c0c0c; 
 }
 
 html[data-view="project"].ios body {

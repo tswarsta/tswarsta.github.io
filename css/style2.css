@@ -14,11 +14,12 @@ html {
     line-height: 1;
     font-family: Helvetica Neue;
     font-size: 24px;
-    
     background-color: #c0c0c0;
-    color: white;
-    mix-blend-mode:difference;
+    color: #3f3f3f;
+    
 }
+
+
 
 header{
   
@@ -30,7 +31,7 @@ header{
   margin-bottom: 24px;
   margin: 0;
   padding: 0;
-/*  mix-blend-mode:difference;*/
+  mix-blend-mode:difference;
 }
 
 footer{
@@ -41,7 +42,7 @@ footer{
     left: 0;
     width: 100%;
     overflow:hidden;
-/*    mix-blend-mode:difference;*/
+    mix-blend-mode:difference;
 /*    padding-top: 100px;*/
 }
 
@@ -49,26 +50,32 @@ footer{
     padding-left: 50%;
 }
 
+
+a{display: inline-block;
+    position: relative;
+z-index: 500;}
 a:link{
+   
     cursor: default;
-    color: black;
+    color: #3f3f3f;
     text-decoration: none;
-    text-transform: uppercase;
 /*    cursor: pointer;*/
 }
 
 a:visited{
+
     cursor: default;
-    color: black;
+    color: #3f3f3f;
     text-decoration: none;
 /*    cursor: pointer;*/
 }
 
 a:hover{
+
     cursor: default;
 /*  cursor: pointer;*/
-  color: black;
-  text-shadow: 0px 0px 10px black, 0 0 1em black, 0 0 1em black;
+  color: #3f3f3f;
+  text-shadow: 0px 0px 10px #3f3f3f, 0 0 1em #3f3f3f, 0 0 1em #3f3f3f;
   mix-blend-mode:difference;
 }
 
@@ -82,6 +89,8 @@ img{
 /*   background: transparent;*/
 /*    margin: 0px;*/
     margin-bottom: -5px;
+    clear: all;
+    mix-blend-mode:initial;
     
 }
 
@@ -100,7 +109,7 @@ img{
     bottom:0;
     left: 0;
     overflow:hidden;
-/*    mix-blend-mode:difference;  */
+    mix-blend-mode:difference;  
 }
 
 body[data-view="project"]::-webkit-scrollbar {
@@ -112,7 +121,7 @@ body[data-view="project"]::-webkit-scrollbar {
 }
 
 ::-webkit-scrollbar-thumb {
-   background: black;
+   background: #3f3f3f;
 }
 
 ::-webkit-scrollbar-track {
@@ -143,8 +152,8 @@ html[data-view="project"].ios body {
 .hair{    
 
     
-    background-color:black;
-  
+    background-color:#3f3f3f;
+    mix-blend-mode:difference; 
   z-index: 1;
 }
 
@@ -152,16 +161,16 @@ html[data-view="project"].ios body {
 /* external css: flickity.css */
 .video{
 /*    height: 81.965214vh;*/
-/*    height:82.2246455834242vh;*/
+    height:82.2246455834242vh;
 
     
 }
 
 #top, #bottom, #left, #right {
-	background: #c0c0c0;
+	background: #0c0c0c;
 	position: fixed;
-/*    mix-blend-mode:difference;*/
-    box-shadow:0px 0px 10px black, 0 0 1em black, 0 0 1em black;
+    mix-blend-mode:difference;
+    box-shadow:0px 0px 10px #3f3f3f, 0 0 1em #3f3f3f, 0 0 1em #3f3f3f;
 /*    z-index: -1;*/
 	}		
 	#top, #bottom {
@@ -236,7 +245,7 @@ body {
 */
     text-align: right;
     float: right;
-    padding-right: 50%;
+    padding-right: 45.5%;
 /*
    align-items: right;
     padding-right: 100px;
@@ -254,7 +263,7 @@ body {
     display: none;
 }
 .carousel--prev, .carousel--next {
-    font-size: px;
+    
   background: transparent;
     cursor: default;
     position: relative;
@@ -279,7 +288,7 @@ body {
 
   .carousel--prev:hover, .carousel--next:hover {
    cursor: default;
-      text-shadow: 0px 0px 10px black, 0 0 1em black, 0 0 1em black;
+      text-shadow: 0px 0px 10px #3f3f3f, 0 0 1em #3f3f3f, 0 0 1em #3f3f3f;
   mix-blend-mode:difference;
     }
 
@@ -367,6 +376,7 @@ padding-right: 0px;
 #crosshair-v{display: none;}
 
 .hair{   display: none;}
+
 }
 
 @media only screen and (min-width: 3000px) {
