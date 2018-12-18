@@ -14,7 +14,6 @@ html {
     line-height: 1;
     font-family: Helvetica Neue;
     font-size: 24px;
-    
     background-color: #0c0c0c;
     color: white;
 }
@@ -48,7 +47,12 @@ footer{
     padding-left: 50%;
 }
 
+
+a{display: inline-block;
+    position: relative;
+z-index: 500;}
 a:link{
+   
     cursor: default;
     color: white;
     text-decoration: none;
@@ -56,6 +60,7 @@ a:link{
 }
 
 a:visited{
+
     cursor: default;
     color: white;
     text-decoration: none;
@@ -63,6 +68,7 @@ a:visited{
 }
 
 a:hover{
+
     cursor: default;
 /*  cursor: pointer;*/
   color: white;
@@ -234,7 +240,7 @@ body {
 */
     text-align: right;
     float: right;
-    padding-right: 50%;
+    padding-right: 45.5%;
 /*
    align-items: right;
     padding-right: 100px;

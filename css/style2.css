@@ -16,7 +16,8 @@ html {
     font-size: 24px;
     
     background-color: #c0c0c0;
-    color: black;
+    color: white;
+    mix-blend-mode:difference;
 }
 
 header{
@@ -29,7 +30,7 @@ header{
   margin-bottom: 24px;
   margin: 0;
   padding: 0;
-  mix-blend-mode:difference;
+/*  mix-blend-mode:difference;*/
 }
 
 footer{
@@ -40,7 +41,7 @@ footer{
     left: 0;
     width: 100%;
     overflow:hidden;
-    mix-blend-mode:difference;
+/*    mix-blend-mode:difference;*/
 /*    padding-top: 100px;*/
 }
 
@@ -99,7 +100,7 @@ img{
     bottom:0;
     left: 0;
     overflow:hidden;
-    mix-blend-mode:difference;  
+/*    mix-blend-mode:difference;  */
 }
 
 body[data-view="project"]::-webkit-scrollbar {
@@ -159,7 +160,7 @@ html[data-view="project"].ios body {
 #top, #bottom, #left, #right {
 	background: #c0c0c0;
 	position: fixed;
-    mix-blend-mode:difference;
+/*    mix-blend-mode:difference;*/
     box-shadow:0px 0px 10px black, 0 0 1em black, 0 0 1em black;
 /*    z-index: -1;*/
 	}		
