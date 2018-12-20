@@ -47,6 +47,11 @@ footer{
     padding-left: 50%;
 }
 
+.archivemargin2{
+    padding-left: 50%;
+    color:#3f3f3f
+}
+
 
 a{display: inline-block;
     position: relative;
@@ -371,6 +376,10 @@ padding-right: 0px;
 #crosshair-v{display: none;}
 
 .hair{   display: none;}
+
+.archivemargin{
+    padding-left: 0%;
+}
 
 }
 
