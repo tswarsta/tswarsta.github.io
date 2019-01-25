@@ -1,3 +1,42 @@
+<!-- /* DECIPHER */    -->
+     <div class="section group"><div class="col
+      span_1_of_6"></div><div class="col span_1_of_6"><p>DECIPHER<br><br>Identity/ Web<br>X0, 2018</p><p class="mobile"><br><br>Making digital privacy and security fresh and exciting for everyone.</p><br><a href="http://x0.design/" target="_blank">+X0</a><br>
+<!--      <a href="https://adage.com/" target="_blank">+Website</a>-->
+      </div><div class="col span_4_of_6">
+<div class="carousel-container">
+  <div class="carousel" data-flickity='{ "wrapAround": true, "prevNextButtons": false, "pageDots": false, "selectedAttraction": 1.0, "friction": 1.0, "lazyLoad": 1 }'>
+<!--<img data-src="images/decipher/decipher1.png" data-src-retina="images/decipher/decipher1.png" src="images/blankimage.png" />-->
+ 
+ 
+ 
+  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher1.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher2.gif">
+  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher3.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher4.gif">
+  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher5.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher6.gif">
+  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher7.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher8.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher9.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher10.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher11.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher12.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher13.png">
+
+
+  
+  
+  </div>
+  <div class="buttongroup">
+  <div class="carousel--prev">&#60;</div>
+      <div class="carousel--next">&#62;</div></div>
+  <p class="carousel-status"></p>
+     </div>
+            
+     </div></div>
+<!-- /* end of project */    -->
+
+<div class="mobilebreak"><br><br></div>
 <!-- /* assemblage */    -->
      <div class="section group"><div class="col
       span_1_of_6"></div><div class="col span_1_of_6"><p>ASSEMBLAGE<br><br>Identity/ Exhibition<br>2017<br></p><p class="mobile"><br>The identity references an exploded diagram of our education and process.</p><p class="mobile"><br><br></p></div><div class="col span_4_of_6">
@@ -48,3 +87,27 @@
             
      </div></div>
 <!-- /* end of project */    -->
+
+
+<!-- /* LENSES */    -->
+     <div class="section group"><div class="col
+      span_1_of_6"></div><div class="col span_1_of_6"><p>LENSES<br><br>Data Visualization<br>2017</p><p class="mobile"><br><br>Referencing retro video games to align with the addictive effects the Newsfeed can have on its’ users.</p><br><a href="https://vimeo.com/205930660/" target="_blank">&rarr;Animation</a></div><div class="col span_4_of_6">
+<div class="carousel-container">
+  <div class="carousel" data-flickity='{ "wrapAround": true, "prevNextButtons": false, "pageDots": false, "selectedAttraction": 1.0, "friction": 1.0, "lazyLoad": 2 }'>
+  <img class="carousel-cell" data-flickity-lazyload="images/lenses/lens_5.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/lenses/lens_1.png">
+  <img class="carousel-cell" data-flickity-lazyload="images/lenses/lens_2.png">
+<!--  <img class="carousel-cell" data-flickity-lazyload="images/lenses/lens_3.png">-->
+  <img class="carousel-cell" data-flickity-lazyload="images/lenses/lens_4.png">
+  
+
+  </div>
+  <div class="buttongroup">
+  <div class="carousel--prev">&#60;</div>
+      <div class="carousel--next">&#62;</div></div>
+  <p class="carousel-status"></p>
+     </div>
+            
+     </div></div>
+<!-- /* end of project */    -->
+<div class="mobilebreak"><br><br></div>

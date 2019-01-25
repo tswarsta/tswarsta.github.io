@@ -16,8 +16,14 @@ html {
     font-size: 24px;
     background-color: #0c0c0c;
     color: white;
+
 }
 
+/*
+.mobile{
+    opacity: .4;
+}
+*/
 header{
   
   z-index: 100;
@@ -56,6 +62,19 @@ footer{
 a{display: inline-block;
     position: relative;
 z-index: 500;}
+
+
+/*
+a.link:link{cursor: default;
+    color: white;
+    
+font-style: italic;}
+a.link:visited{cursor: default;
+    color: white;
+  }
+*/
+
+
 a:link{
    
     cursor: default;
@@ -63,6 +82,7 @@ a:link{
     text-decoration: none;
 /*    cursor: pointer;*/
 }
+
 
 a:visited{
 
@@ -298,7 +318,8 @@ body {
     vertical-align: bottom;
     clear: both;
 /*   padding-right: 47%;*/
-   z-index: 50;}
+   z-index: 50;
+font-size: 48;}
 
 
 
@@ -361,6 +382,10 @@ body {
 }
     
     .mobile{
+        display: none;
+    }
+    
+    .mobile1{
         display: none;
     }
   .carousel-status {
