@@ -5,10 +5,10 @@ function setStyleSheet() {
   
   if (currentSheet === "css/style.css") {
     stylesheet.setAttribute("href", "css/style2.css");
-    a.innerHTML = "INVERT";
+    a.innerHTML = "Invert";
   } else {
     stylesheet.setAttribute("href", "css/style.css");
     a.innerHTML = 
-"INVERT";
+"Invert";
   }
 }
