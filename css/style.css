@@ -97,8 +97,13 @@ a:hover{
     cursor: default;
 /*  cursor: pointer;*/
   color: white;
-  text-shadow: 0px 0px 10px white, 0 0 1em white, 0 0 1em white;
+/*
+  text-shadow: 0px 0px 5px white, 0 0 0.5em white, 0 0 0.5em white;
   mix-blend-mode:difference;
+    
+     
+*/
+    text-shadow: 0px 0px 5px white, 0 0 0.5em white;
 }
 
 .bottomMenu {
@@ -154,6 +159,8 @@ html[data-view="project"].ios body {
 
 * { cursor: url(cursor.png), none !important }
 
+
+
 #crosshair-h{
     position:absolute;
 
@@ -190,7 +197,7 @@ html[data-view="project"].ios body {
 	background: #0c0c0c;
 	position: fixed;
     mix-blend-mode:difference;
-    box-shadow:0px 0px 10px white, 0 0 1em white, 0 0 1em white;
+    box-shadow:0px 0px 10px white, 0 0 1em white;
 /*    z-index: -1;*/
 	}		
 	#top, #bottom {
@@ -308,8 +315,10 @@ body {
 
   .carousel--prev:hover, .carousel--next:hover {
    cursor: default;
-      text-shadow: 0px 0px 10px white, 0 0 1em white, 0 0 1em white;
+      text-shadow: 0px 0px 5px white, 0 0 0.5em white;
   mix-blend-mode:difference;
+      
+     
     }
 
 
