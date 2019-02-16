@@ -421,4 +421,12 @@ padding-right: 0px;
     html{
         font-size: 48px;
     }
+    
+    #crosshair-h{
+  
+    height:2.5px;
+}
+#crosshair-v{
+   
+    width:2.5px;
 }
