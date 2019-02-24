@@ -18,10 +18,10 @@ html {
     color: white;
 
 }
-
 /*
+
 .mobile{
-    opacity: .4;
+    font-size: 18px;
 }
 */
 header{
@@ -64,7 +64,6 @@ a{display: inline-block;
 z-index: 500;}
 
 
-/*
 a.link:link{cursor: default;
     color: white;
     
@@ -72,7 +71,6 @@ font-style: italic;}
 a.link:visited{cursor: default;
     color: white;
   }
-*/
 
 
 a:link{
