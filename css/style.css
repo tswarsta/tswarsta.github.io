@@ -11,7 +11,7 @@ html {
     float: none !important;
     overflow: inherit;
     overflow-x: hidden;
-    line-height: 1;
+    line-height: 24px;
     font-family: Helvetica Neue;
     font-size: 24px;
     background-color: #0c0c0c;
@@ -74,7 +74,9 @@ a.link:visited{cursor: default;
 
 
 a:link{
-   
+   font-family: 
+"Times New Roman", serif;
+    font-size: 27px;
     cursor: default;
     color: white;
     text-decoration: none;
