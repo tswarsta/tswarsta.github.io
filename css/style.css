@@ -12,18 +12,12 @@ html {
     overflow: inherit;
     overflow-x: hidden;
     line-height: 24px;
-    font-family: Helvetica Neue;
+    font-family: arial;
     font-size: 24px;
     background-color: #0c0c0c;
     color: white;
-
 }
-/*
 
-.mobile{
-    font-size: 18px;
-}
-*/
 header{
   
   z-index: 100;
@@ -47,15 +41,6 @@ footer{
     overflow:hidden;
     mix-blend-mode:difference;
 /*    padding-top: 100px;*/
-}
-
-.archivemargin{
-    padding-left: 50%;
-}
-
-.archivemargin2{
-    padding-left: 50%;
-    color:#3f3f3f
 }
 
 
@@ -112,7 +97,6 @@ a:hover{
 
 img{
 /*  display:block;*/
-  width: 100%;
 /*   background: transparent;*/
 /*    margin: 0px;*/
     margin-bottom: -5px;
@@ -177,21 +161,12 @@ html[data-view="project"].ios body {
 }
 
 .hair{    
-
-    
     background-color:white;
     mix-blend-mode:difference; 
   z-index: 1;
 }
 
 
-/* external css: flickity.css */
-.video{
-/*    height: 81.965214vh;*/
-    height:82.2246455834242vh;
-
-    
-}
 
 #top, #bottom, #left, #right {
 	background: #0c0c0c;

@@ -11,9 +11,9 @@ html {
     float: none !important;
     overflow: inherit;
     overflow-x: hidden;
-    line-height: 24px;
+    line-height: 22px;
     font-family: "Times New Roman", serif; 
-    font-size: 27px;
+    font-size: 24px;
     background-color: #c0c0c0;
     color: #3f3f3f;
     
@@ -55,7 +55,7 @@ a{display: inline-block;
     position: relative;
 z-index: 500;}
 a:link{
-   font-family: helvetica neue;
+   font-family: arial;
     font-size: 24px;
     cursor: default;
     color: #3f3f3f;
@@ -284,7 +284,7 @@ body {
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
-    font-family: Helvetica Neue;
+    font-family: arial;
     font-size: 24px;
     
 }
