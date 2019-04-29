@@ -14,8 +14,8 @@ html {
     line-height: 22px;
     font-family: "Times New Roman", serif; 
     font-size: 24px;
-    background-color: #c0c0c0;
-    color: #3f3f3f;
+    background-color: #f5f5f5;
+    color: #0c0c0c;
     
 }
 
@@ -31,7 +31,7 @@ header{
   margin-bottom: 24px;
   margin: 0;
   padding: 0;
-  mix-blend-mode:difference;
+/*  mix-blend-mode:difference;*/
 }
 
 footer{
@@ -42,7 +42,7 @@ footer{
     left: 0;
     width: 100%;
     overflow:hidden;
-    mix-blend-mode:difference;
+/*    mix-blend-mode:difference;*/
 /*    padding-top: 100px;*/
 }
 
@@ -58,7 +58,7 @@ a:link{
    font-family: arial;
     font-size: 24px;
     cursor: default;
-    color: #3f3f3f;
+    color: #0c0c0c;
     text-decoration: none;
 /*    cursor: pointer;*/
 }
@@ -66,7 +66,7 @@ a:link{
 a:visited{
 
     cursor: default;
-    color: #3f3f3f;
+    color: #0c0c0c;
     text-decoration: none;
 /*    cursor: pointer;*/
 }
@@ -75,9 +75,10 @@ a:hover{
 
     cursor: default;
 /*  cursor: pointer;*/
-  color: #3f3f3f;
-  text-shadow: 0px 0px 5px #3f3f3f, 0 0 0.5em #3f3f3f;
-  mix-blend-mode:difference;
+  color: #0c0c0c;
+    
+  text-shadow: 0px 0px .25px #3f3f3f, 0 0 0.09em #3f3f3f;
+/*  mix-blend-mode:difference;*/
 }
 
 .bottomMenu {
@@ -110,7 +111,7 @@ img{
     bottom:0;
     left: 0;
     overflow:hidden;
-    mix-blend-mode:difference;  
+/*    mix-blend-mode:difference;  */
 }
 
 body[data-view="project"]::-webkit-scrollbar {
@@ -122,11 +123,11 @@ body[data-view="project"]::-webkit-scrollbar {
 }
 
 ::-webkit-scrollbar-thumb {
-   background: #3f3f3f;
+   background: #0c0c0c;
 }
 
 ::-webkit-scrollbar-track {
-  background: #c0c0c0; 
+  background: #f5f5f5; 
 }
 
 html[data-view="project"].ios body {
@@ -153,8 +154,8 @@ html[data-view="project"].ios body {
 .hair{    
 
     
-    background-color:#3f3f3f;
-    mix-blend-mode:difference; 
+    background-color:#0c0c0c;
+/*    mix-blend-mode:difference; */
   z-index: 1;
 }
 
@@ -292,8 +293,8 @@ body {
 
   .carousel--prev:hover, .carousel--next:hover {
    cursor: default;
-      text-shadow: 0px 0px 5px #3f3f3f, 0 0 0.5em #3f3f3f, 
-  mix-blend-mode:difference;
+      text-shadow: 0px 0px 5px #0c0c0c, 0 0 0.5em #0c0c0c, 
+/*  mix-blend-mode:difference;*/
     }
 
 
