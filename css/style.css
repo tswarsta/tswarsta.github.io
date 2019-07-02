@@ -11,9 +11,9 @@ html {
     float: none !important;
     overflow: inherit;
     overflow-x: hidden;
-    line-height: 24px;
+    line-height: 50px;
     font-family: arial;
-    font-size: 24px;
+    font-size: 50px;
     background-color: #0c0c0c;
     color: white;
 }
@@ -25,7 +25,7 @@ header{
   width: 100%;
   top: 0;
   left: 0;
-  margin-bottom: 24px;
+  margin-bottom: 25px;
   margin: 0;
   padding: 0;
   mix-blend-mode:difference;
@@ -61,7 +61,7 @@ a.link:visited{cursor: default;
 a:link{
    font-family: 
 "Times New Roman", serif;
-    font-size: 27px;
+    font-size: 56.25px;
     cursor: default;
     color: white;
     text-decoration: none;
@@ -88,27 +88,13 @@ a:hover{
     
      
 */
-    text-shadow: 0px 0px 5px white, 0 0 0.05em white;
+    text-shadow: 0px 0px 2.5px white;
 }
 
 .bottomMenu {
     display: none;
 }
 
-img{
-/*  display:block;*/
-/*   background: transparent;*/
-/*    margin: 0px;*/
-    margin-bottom: -5px;
-    
-}
-
-/*
-.behind{
-    z-index: -10;
-    display:inherit;
-}
-*/
 
 
 
@@ -190,125 +176,13 @@ body {
   font-family: sans-serif; }
 */
 
-.flickity-viewport {
-  overflow: hidden;
-    display: block;
-  position: relative;
-  height: 100%;
-/*z-index: 1;*/
-}
-
-.carousel {
-  cursor: default;
-  width: 100%;
-  background: transparent;
-  border:none;
-  background-color:transparent;
-  outline:none;
-/*    height: 754px;*/
-    height: 100%;
-  
-}
 
 
-.carousel-cell {
-  
-  width: 100%;
-/*  display: block;*/
-  cursor: default;
-  margin: 0px 0px 0px 0px;
- padding: 0px 0px 0px 0px;
-  margin-bottom: -1px;
-  background: transparent;
-  counter-increment: carousel-cell; 
-  border:none;
-  background-color:transparent;
-  outline:none;
-
-}
-
-/* cell number delete */
-/*
-.carousel-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(carousel-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white; }
-*/
-
-.carousel-status {
-    display: inline-block;
-/*    position:absolute;*/
-/*
-    align-content: right;
-    align-items: right;
-*/
-    text-align: right;
-    float: right;
-    padding-right: 45.5%;
-/*
-   align-items: right;
-    padding-right: 100px;
-*/
-/*    padding-left: 150px;*/
-/*    float: right;*/
-/*    padding-left: 500px;*/
-/*    width: 100%;*/
-/*  font-size: 24px;*/
-    
-}
 
 
 .mobilebreak{
     display: none;
 }
-.carousel--prev, .carousel--next {
-    font-size: px;
-  background: transparent;
-    cursor: default;
-    position: relative;
-    display: inline-block;
-    padding: 0px;
-/*    padding-right: 50px;*/
-    border: 0px;
-    vertical-align: bottom;
-/*    float: left;*/
-    text-align: left;    
-    z-index: 50;
-/*    width: 100%;*/
-      -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
-     font-family: 
-"Times New Roman", serif;
-    font-size: 27px;
-}
-
-
-  .carousel--prev:hover, .carousel--next:hover {
-   cursor: default;
-      text-shadow: 0px 0px 5px white, 0 0 0.5em white;
-  mix-blend-mode:difference;
-      
-      
-     
-    }
-
-
-.buttongroup{ 
-    display: inline-block;
-    vertical-align: bottom;
-    clear: both;
-/*   padding-right: 47%;*/
-   z-index: 50;
-font-size: 48;}
-
 
 
 /*  SECTIONS  */
@@ -320,14 +194,11 @@ font-size: 48;}
 
 /*  COLUMN SETUP  */
 .col {
-	display:block;
-	float: left;
-    padding: 0px;
-	margin: 0px 0% 1px 0;
+	display: block;
+	float:left;
+	margin: 0px 0 1px 0%;
 }
-.col:first-child { 
-    padding: 0px;
-	} 
+.col:first-child { padding: 0px; }
 
 /*  GROUPING  */
 .group:before,
@@ -335,35 +206,45 @@ font-size: 48;}
 .group:after { clear:both;}
 .group { zoom:1; /* For IE 6/7 */ }
 
-/*  GRID OF SIX  */
-.span_6_of_6 {
+
+/*  GRID OF EIGHT  */
+.span_8_of_8 {
 	width: 100%;
 }
 
-.span_5_of_6 {
-  	width: 83.33%;
+.span_7_of_8 {
+  	width: 87.5%;
 }
 
-.span_4_of_6 {
-  	width: 66.66%;
+.span_6_of_8 {
+  	width: 75%;
 }
 
-.span_3_of_6 {
+.span_5_of_8 {
+  	width: 62.5%;
+}
+
+.span_4_of_8 {
   	width: 50%;
 }
 
-.span_2_of_6 {
-  	width: 33.33%;
+.span_3_of_8 {
+  	width: 37.5%;
 }
 
-.span_1_of_6 {
-  	width: 16.66%;
+.span_2_of_8 {
+  	width: 25%;
+}
+
+.span_1_of_8 {
+  	width: 12.5%;
 }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 768px) {
-	.col {  margin: 0% 0 0% 0%; }
-	.span_1_of_6, .span_2_of_6, .span_3_of_6, .span_4_of_6, .span_5_of_6, .span_6_of_6 { width: 100%; }
+	.col {  margin: 0px 0 1px 0%; }
+	.span_1_of_8, .span_2_of_8, .span_3_of_8, .span_4_of_8, .span_5_of_8, .span_6_of_8, .span_7_of_8, .span_8_of_8 { width: 100%; }
+
     
     .mobilebreak{
     display: block;
@@ -376,12 +257,12 @@ font-size: 48;}
     .mobile1{
         display: none;
     }
+
   .carousel-status {
 padding-right: 0px;  
 }
 #scrollPercentLabel{
-        text-align: right;
-        align-items: right;
+     
     width: 100%;
     } 
     

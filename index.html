@@ -2,61 +2,14 @@
 <html>
    <head>
     <title>Treat Swarstad</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
     <link id="stylesheet" rel="stylesheet" type="text/css" href="css/style.css" />
-<!--    <script src="script/invert.js"></script>-->
      <script type= "text/javascript" src="script/jquery.js"></script>
  <script  type= "text/javascript" src="script/percentage.js"></script>
   <script type= "text/javascript" src="script/jquery.js"></script>
  <script src="script/cursor.js"></script>
- <script type="text/javascript" src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
-
-  <link rel='stylesheet' href='https://npmcdn.com/flickity@2/dist/flickity.css'>
-<script type= "text/javascript" src="script/btp.js"></script>
-<!--<script src="script/index.js"></script>-->
-
- <script type="text/javascript">
- window.onload=function(){
-      
-// external js: flickity.pkgd.js
-
-var carouselContainers = document.querySelectorAll('.carousel-container');
-
-for ( var i=0; i < carouselContainers.length; i++ ) {
-  var container = carouselContainers[i];
-  initCarouselContainer( container );
-}
-
-function initCarouselContainer( container ) {
-  var carousel = container.querySelector('.carousel');
-  var flkty = new Flickity( carousel, {
-    imagesLoaded: true,
-    percentPosition: false,
-    pageDots: false,
-    adaptiveHeight: true
-  });
-  var carouselStatus = container.querySelector('.carousel-status');
-
-  function updateStatus() {
-    var slideNumber = flkty.selectedIndex + 1;
-    carouselStatus.textContent= slideNumber + '/' + flkty.slides.length;}
-  updateStatus();
-  
-  var previousButton = container.querySelector('.carousel--prev');
-  previousButton.addEventListener('click', function () {
-    flkty.previous();
-  });
-  
-  var nextButton = container.querySelector('.carousel--next');
-  nextButton.addEventListener('click', function () {
-    flkty.next();
-  });
-
-  flkty.on( 'select', updateStatus ); 
-}}
-</script>
-<script src="script/invert.js"></script>
+ <script type= "text/javascript" src="script/btp.js"></script>
+ <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
  <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -67,6 +20,7 @@ function initCarouselContainer( container ) {
   ga('create', 'UA-89498540-1', 'auto');
   ga('send', 'pageview');
 </script>
+<script src="script/invert.js"></script>
 
 <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -86,247 +40,51 @@ function initCarouselContainer( container ) {
 <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
-<!--
-
- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="jquery.unveil.js"></script>
-
-    <script>
-    $(function() {
-        $("img").unveil(300);
-    });
-    </script>
--->
-
 </head>
+
 
 <div id="crosshair-h" class="hair"></div>
 <div id="crosshair-v" class="hair"></div>
 
 <header>
-
 <div class="section group">
-	<div class="col span_1_of_6">
-	<div class="item">
-	<a href="info.html"><p class="label success new-label"><span class="align">Treat Swarstad</span></p></a></div>
-    </div>
-    <div class="col span_2_of_6"></div>
-    <div class="mobile1">
-	<div class="col span_2_of_6">
-	<div class="mobile1">
-        <div class="bottomMenu"><a href="#top">0%</a></div></div>
-<!--	<a href="archive.html">Archive</a>-->
+
+	<div class="col span_4_of_8">
+<a href="index.html">Treat Swarstad</a> is a graphic designer in New York, Carnegie Mellon 2018.
+
+<br>Portfolio available on request*<br><br>
+treatswarstad@gmail.com<br>
+<a href="https://www.instagram.com/treatswarstad/" target="_blank">@treatswarstad</a><br>
 	</div>
-	<div class="col span_1_of_6">
-	28/05/19
-    </div></div>
+
+	<div class="col span_2_of_8">
+	</div>
+	<div class="col span_2_of_8">
+   <div class="mobile1">
+      2019/06/02</div>
+    </div>
+
 </div>
 </header>
-<!--<br><br><br><br>-->
-<body>
-<br>
-<!-- /* DECIPHER */    -->
-     <div class="section group"><div class="col
-      span_1_of_6"><br></div><div class="col span_1_of_6">DECIPHER<p class="mobile">Identity, <a href="http://x0.design/" target="_blank" >X0</a>, 2019</p><p class="mobile"><br>Making digital privacy and security fresh and exciting for everyone.</p><br>
-<!--      <a href="https://adage.com/" target="_blank">+Website</a>-->
-      </div><div class="col span_4_of_6">
-<div class="carousel-container">
-  <div class="carousel" data-flickity='{ "wrapAround": true, "prevNextButtons": false, "pageDots": false, "selectedAttraction": 1.0, "friction": 1.0, "lazyLoad": 2 }'>
-<!--<img data-src="images/decipher/decipher1.png" data-src-retina="images/decipher/decipher1.png" src="images/blankimage.png" />-->
- 
-
-  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher1.jpg">
-  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher2.gif">
-  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher3.jpg">
-<!--  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher4.gif">-->
-<!--    <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher6.gif">-->
-  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher5.jpg">
-  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher7.jpg">
-<!--
-  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher8.png">
-  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher9.png">
--->
-  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher10.png">
-  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher11.jpg">
-  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher12.png">
-<!--  <img class="carousel-cell" data-flickity-lazyload="images/decipher/decipher13.png">-->
 
 
-  
-  
-  </div>
-  <div class="buttongroup">
-  <div class="carousel--prev">&#60;</div>
-      <div class="carousel--next">&#62;</div></div>
-  <p class="carousel-status"></p>
-     </div>
-            
-     </div></div>
-<!-- /* end of project */    -->
-
-<div class="mobilebreak"><br></div>
-<!-- /* HIDING IN PLAIN SITE */    -->
-     <div class="section group"><div class="col
-         span_1_of_6"></div><div class="col span_1_of_6">HIDING IN PLAIN SITE<p class="mobile">Exhibition, 2018</p><p class="mobile"><br>Surveillance is a business model, and we are the product.</p></div><div class="col span_4_of_6">
-<div class="carousel-container">
-  <div class="carousel" data-flickity='{ "wrapAround": true, "prevNextButtons": false, "pageDots": false, "selectedAttraction": 1.0, "friction": 1.0, "lazyLoad": 2 }'>
-  <img class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite1.jpg">
-    <img class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite2.jpg">
-<!--    <img class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite3.jpg">-->
-    <img class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite4.jpg">   
-<!--    <img class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite5.jpg">-->
-    <img class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite6.jpg">
-<!--    <img class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite7.jpg">-->
-<!--    <img  class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite8.jpg">-->
-    <img class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite9.png">
-<!--    <img class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite10.jpg">-->
-<!--    <img class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite11.png">-->
-<!--    <img class="carousel-cell" data-flickity-lazyload="images/plainsite/plainsite12.png">-->
-  </div>
-  <div class="buttongroup">
-  <div class="carousel--prev">&#60;</div>
-      <div class="carousel--next">&#62;</div></div>
-  <p class="carousel-status"></p>
-     </div> 
-     </div></div>
-<!-- /* end of project */    -->
-<div class="mobilebreak"><br></div>
-<!-- /* PHENO */    -->
-     <div class="section group"><div class="col
-      span_1_of_6"></div><div class="col span_1_of_6"><a href="https://vimeo.com/254078982" target="_blank">PHENO</a><p class="mobile">Typeface, 2018</p><p class="mobile"><br>The first division and catalyst of an essential phenomenon.</p></div><div class="col span_4_of_6">
-<div class="carousel-container">
-  <div class="carousel" data-flickity='{ "wrapAround": true, "prevNextButtons": false, "pageDots": false, "selectedAttraction": 1.0, "friction": 1.0, "lazyLoad": 2 }'>
-<!--  <img class="carousel-cell" data-flickity-lazyload="images/pheno/pheno1.png">-->
-  <img class="carousel-cell" data-flickity-lazyload="images/pheno/pheno3.png">
-  <img class="carousel-cell" data-flickity-lazyload="images/pheno/pheno4.png">
-<!--  <img class="carousel-cell" data-flickity-lazyload="images/pheno/pheno5.jpg">-->
-  <img class="carousel-cell" data-flickity-lazyload="images/pheno/pheno2.jpg">
-<!--
- <div class="carousel-cell"><div style="padding:64.29% 0 0 0;position:relative; z-index:10;"><iframe src="https://player.vimeo.com/video/254078982?loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
- </div> 
--->
-  <img class="carousel-cell" src="images/pheno/pheno6.jpg">
-  </div>
-  <div class="buttongroup">
-  <div class="carousel--prev">&#60;</div>
-      <div class="carousel--next">&#62;</div></div>
-  <p class="carousel-status"></p>
-     </div>
-            
-     </div></div>
-<!-- /* end of project */    -->
-<div class="mobilebreak"><br></div>
-
-<!-- /* ADAGE */    -->
-     <div class="section group"><div class="col
-         span_1_of_6"></div><div class="col span_1_of_6"><a href="https://adage.com/" target="_blank">ADAGE</a><p class="mobile">Identity, <a href="http://originalchampionsofdesign.com/" target="_blank">OCD</a>, 2017</p><p class="mobile"><br>Advertising moves fast, news moves faster.</p></div><div class="col span_4_of_6">
-<div class="carousel-container">
-  <div class="carousel" data-flickity='{ "wrapAround": true, "prevNextButtons": false, "pageDots": false, "selectedAttraction": 1.0, "friction": 1.0, "lazyLoad": 2 }'>
-  <img class="carousel-cell" data-flickity-lazyload="images/adage/aa1.jpg">
-  <img class="carousel-cell" data-flickity-lazyload="images/adage/aa2.jpg">
-  <img class="carousel-cell" data-flickity-lazyload="images/adage/aa3.jpg">
-<!--  <img class="carousel-cell" data-flickity-lazyload="images/adage/aa4.png">-->
-  <img class="carousel-cell" data-flickity-lazyload="images/adage/aa5.jpg">
-  <img class="carousel-cell" data-flickity-lazyload="images/adage/aa6.jpg">
-  
-  </div>
-  <div class="buttongroup">
-  <div class="carousel--prev">&#60;</div>
-      <div class="carousel--next">&#62;</div></div>
-  <p class="carousel-status"></p>
-     </div>
-            
-     </div></div>
-<!-- /* end of project */    -->
-
-<div class="mobilebreak"><br></div>
-<!-- /* PORCELAIN BABY */    -->
-     <div class="section group"><div class="col
-      span_1_of_6"></div><div class="col span_1_of_6">PORCELAIN BABY I<p class="mobile">Print, 2017</p><p class="mobile"><br>A romanticised approach with pre-existing forms and a idealistic lens.</p></div><div class="col span_4_of_6">
-<div class="carousel-container">
-  <div class="carousel" data-flickity='{ "wrapAround": true, "prevNextButtons": false, "pageDots": false, "selectedAttraction": 1.0, "friction": 1.0, "lazyLoad": 2 }'>
-<!--  <img class="carousel-cell" data-flickity-lazyload="images/PB/pb13.png">-->
-<!--  <img class="carousel-cell" data-flickity-lazyload="images/PB/pb1.jpg">-->
-        <img class="carousel-cell" data-flickity-lazyload="images/PB/pb2.png">
-              <img class="carousel-cell" data-flickity-lazyload="images/PB/pb3.png">
-              <img class="carousel-cell" data-flickity-lazyload="images/PB/pb4.png">
-              <img class="carousel-cell" data-flickity-lazyload="images/PB/pb5.png">
-              <img class="carousel-cell" data-flickity-lazyload="images/PB/pb6.png">
-
-  </div>
-  <div class="buttongroup">
-  <div class="carousel--prev">&#60;</div>
-      <div class="carousel--next">&#62;</div></div>
-  <p class="carousel-status"></p>
-     </div>
-            
-     </div></div>
-<!-- /* end of project */    -->
-<div class="mobilebreak"><br></div>
-
-<!-- /* RE RE RE */    -->
-     <div class="section group"><div class="col
-      span_1_of_6"></div><div class="col span_1_of_6">RE RE RE<p class="mobile">Print, 2016</p><p class="mobile"><br>The reoccurring traumas of being a survivor. </p></div><div class="col span_4_of_6">
-<div class="carousel-container">
-  <div class="carousel" data-flickity='{ "wrapAround": true, "prevNextButtons": false, "pageDots": false, "selectedAttraction": 1.0, "friction": 1.0, "lazyLoad": 2 }'>
-  <img class="carousel-cell" data-flickity-lazyload="images/re3/re1.png">
-        <img class="carousel-cell" data-flickity-lazyload="images/re3/re2.png">
-        <img class="carousel-cell" data-flickity-lazyload="images/re3/re3.png">
-  <img class="carousel-cell" data-flickity-lazyload="images/re3/re4.png">
-   <img class="carousel-cell" data-flickity-lazyload="images/re3/re5.png">
-  <img class="carousel-cell" data-flickity-lazyload="images/re3/re6.png">
-  <img class="carousel-cell" data-flickity-lazyload="images/re3/re7.png">
-  </div>
-  <div class="buttongroup">
-  <div class="carousel--prev">&#60;</div>
-      <div class="carousel--next">&#62;</div></div>
-  <p class="carousel-status"></p>
-     </div><div class="mobilebreak"><br></div>
-   <br>Treat Swarstad 2019
-     </div></div>
-<!-- /* end of project */    -->
-     
- 
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <script>
-    // tell the embed parent frame the height of the content
-    if (window.parent && window.parent.parent){
-      window.parent.parent.postMessage(["resultsFrame", {
-        height: document.body.getBoundingClientRect().height,
-        slug: "5g4ch0g9"
-      }], "*")
-    }
-  </script>
-  
-  
-
-</body>
-   
-<div id="bottom"></div>
-    
 <footer><div class="section group">
-	<div class="col span_3_of_6">
+	<div class="col span_4_of_8">
+    
 	</div>
    
-    <div class="col span_2_of_6">
-    <div id="scrollPercentLabel"><span>0</span>%</div>
+    <div class="col span_2_of_8">
+        
+    
 
     </div>
-<div class="mobile1">
-	<div class="col span_1_of_6">
-	<a id="toggle" onclick="setStyleSheet()" href="#">Invert</a></div></div></div></footer>
+
+	<div class="col span_2_of_8">
+<!--
+    
+        <div id="scrollPercentLabel"><span>0</span>%</div>
+-->
+         <a id="toggle" onclick="setStyleSheet()" href="#">Invert</a>
+	</div></div></footer>
+    
 </html>    
-
-
