@@ -259,13 +259,7 @@ body {
         display: none;
     }
 
-  .carousel-status {
-padding-right: 0px;  
-}
-#scrollPercentLabel{
-        
-    width: 100%;
-    } 
+ 
     
 #crosshair-h{display: none;}
 #crosshair-v{display: none;}
