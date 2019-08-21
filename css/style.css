@@ -17,6 +17,7 @@ html {
     background-color: #0c0c0c;
     color: white;
     vertical-align: top;
+    letter-spacing: 1px;
 }
 
 header{
@@ -31,6 +32,8 @@ header{
   padding: 0;
   mix-blend-mode:difference;
 }
+
+
 
 footer{
    z-index: 100;

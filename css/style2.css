@@ -16,7 +16,7 @@ html {
     font-size: 56.24px;
     background-color: white;
     color: #0c0c0c;
-    letter-spacing: -1px;
+/*    letter-spacing: -1px;*/
     vertical-align: top;
 }
 
@@ -31,6 +31,8 @@ header{
   margin: 0;
   padding: 0;
   mix-blend-mode:difference;
+
+ 
 }
 
 footer{
@@ -228,6 +230,7 @@ body {
 
 .span_4_of_8 {
   	width: 50%;
+    
 }
 
 .span_3_of_8 {
