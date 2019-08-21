@@ -16,7 +16,7 @@ html {
     font-size: 50px;
     background-color: #0c0c0c;
     color: white;
-    vertical-align: baseline;
+    vertical-align: top;
 }
 
 header{
@@ -95,8 +95,6 @@ a:hover{
 .bottomMenu {
     display: none;
 }
-
-
 
 
 #scrollPercentLabel{
