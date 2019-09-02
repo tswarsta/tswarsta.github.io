@@ -17,7 +17,7 @@ html {
     background-color: #0c0c0c;
     color: white;
     vertical-align: top;
-    letter-spacing: 1px;
+/*    letter-spacing: 1px;*/
 }
 
 header{
@@ -33,7 +33,9 @@ header{
   mix-blend-mode:difference;
 }
 
-
+.indents{
+    text-indent:50px;
+}
 
 footer{
    z-index: 100;
@@ -247,6 +249,14 @@ body {
 	.col {  margin: 0px 0 1px 0%; }
 	.span_1_of_8, .span_2_of_8, .span_3_of_8, .span_4_of_8, .span_5_of_8, .span_6_of_8, .span_7_of_8, .span_8_of_8 { width: 100%; }
 
+    
+    .indents{
+    text-indent:0px;
+}
+    
+    
+    
+    
     
     .mobilebreak{
     display: block;
