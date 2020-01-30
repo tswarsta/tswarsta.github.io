@@ -20,6 +20,11 @@ html {
 /*    letter-spacing: 1px;*/
 }
 
+img{
+    width: 100vw;
+    height: 100vh;
+    z-index: -50;
+}
 header{
   
   z-index: 100;

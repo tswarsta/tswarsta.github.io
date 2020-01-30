@@ -140,7 +140,11 @@ html[data-view="project"].ios body {
 /** { cursor: url(cursor.png), none !important }*/
 
 
-
+img{
+    width: 100vw;
+    height: 100vh;
+    z-index: -50;
+}
 #crosshair-h{
     position:absolute;
 
