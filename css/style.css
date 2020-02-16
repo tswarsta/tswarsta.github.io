@@ -76,7 +76,7 @@ html[data-view="project"].ios body {
 @keyframes myanimation {
   0% {background-color: #0c0c0c;}
   50%{background-color:#d1ed5b;}
-  100%{background-color:#f7f7f7;}
+  100%{background-color:#0c0c0c;}
 }
 
 /*
