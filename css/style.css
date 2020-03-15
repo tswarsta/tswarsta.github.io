@@ -5,6 +5,7 @@ html,
 body {
     margin: 0;
     padding: 0;
+    height: 100%;
     font-family: arial;
     font-size: 50px;
     background-color: #0c0c0c;
@@ -94,6 +95,10 @@ a:hover {
 }
 
 
+.mobile0ff{
+        display: block;
+    }
+
 
 /*  SECTIONS  */
 .section {
@@ -167,7 +172,18 @@ a:hover {
         font-size: 28.125px;
     }
     
-    img{
-        height: 90vh;
+    body{
+        height: 100%;
+    }
+    
+   
+    .info{
+        bottom: 0;
+        position: fixed;
+        margin-bottom: 20px;
+    }
+    
+    .mobile0ff{
+        display: none;
     }
 }
