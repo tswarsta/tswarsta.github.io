@@ -92,9 +92,7 @@ a:hover {
     /*    transition: all .25s;*/
 }
 
-.minfo{
-    display: block;
-}
+
 
 /*  SECTIONS  */
 .section {
@@ -168,17 +166,8 @@ a:hover {
         font-size: 28.125px;
     }
     
-        .info {
-      display: none;
+    img {
+    height: 95vh;
+}
     
-    }
-
-    .minfo{
-        display: block;
-        position: absolute;
-        bottom: 0;
-        z-index: 500;
-        margin-bottom: 20px;
-        mix-blend-mode: difference;
-    }
 }
