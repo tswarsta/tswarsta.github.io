@@ -9,6 +9,7 @@ body {
     font-size: 50px;
     background-color: #0c0c0c;
     color: white;
+    overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -166,8 +167,5 @@ a:hover {
         font-size: 28.125px;
     }
     
-    img {
-    height: 95vh;
-}
     
 }
