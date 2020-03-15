@@ -1,0 +1,184 @@
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+
+
+
+ TREAT: You can style the scrollbar here. 
+ */
+
+ .jspContainer
+ {
+     overflow: hidden;
+     position: relative;
+ }
+ 
+ .jspPane
+ {
+     position: absolute;
+ }
+ 
+ .jspVerticalBar
+ {
+     background: transparent;
+     height: 100%;
+     position: absolute;
+     right: 0;
+     top: 0;
+     width: 0px;
+ }
+ 
+ .jspHorizontalBar
+ {
+     background: transparent;
+     bottom: 0;
+     height: 50px;
+     left: 0;
+     position: absolute;
+     width: 100%;
+ }
+ 
+ .jspCap
+ {
+     display: none;
+ }
+ 
+ .jspHorizontalBar .jspCap
+ {
+     float: left;
+ }
+ 
+ .jspTrack
+ {
+     background: transparent;
+     position: relative;
+ }
+ 
+ .jspDrag
+ {
+     background: white;
+     cursor: pointer;
+     left: 0;
+     position: relative;
+     top: 0;
+     cursor: crosshair;
+     mix-blend-mode: difference;
+     border-radius: 50px;
+ 
+ }
+ 
+ .jspHorizontalBar .jspTrack,
+ .jspHorizontalBar .jspDrag
+ {
+     float: left;
+     height: 100%;
+     
+ }
+ 
+ .jspArrow
+ {
+/*
+     background: transparent;
+     cursor: pointer;
+     direction: ltr;
+     display: block;
+     margin: 0;
+     padding: 0;
+     text-indent: -20000px;
+    
+*/
+     display: none;
+ }
+ 
+ .jspDisabled
+ {
+     display: none;
+     cursor: default;
+ }
+ 
+ .jspVerticalBar .jspArrow
+ {
+     display: none;
+     height: 16px;
+ }
+ 
+ .jspHorizontalBar .jspArrow
+ {
+     float: left;
+     height: 100%;
+     width: 0px;
+ }
+ 
+ .jspVerticalBar .jspArrow:focus
+ {
+    border: 1px solid white;
+     outline: none;
+ }
+ 
+ .jspCorner
+ {
+     background: #eeeef4;
+     float: left;
+     height: 100%;
+ }
+ 
+ /* Yuk! CSS Hack for IE6 3 pixel bug :( */
+ * html .jspCorner
+ {
+     margin: 0 -3px 0 0;
+ }
+
+
+
+
+
+/* MORE SCROLLBAR SCROLL STYLES */
+
+.scroll-pane {
+    width: 100%;
+    height: 900px;
+  }
+  .horizontal-only {
+    height: auto;
+    min-height: 90vh;
+      width: 100vw;
+  }
+  
+  #full-page-container {
+    overflow: auto;
+  }
+  
+  
+  /*  END SCROLLBAR STYLES  */
+
+
+
+
+@media only screen and (max-width: 768px) {
+   
+ .jspHorizontalBar
+ {
+     height: 20px;
+ }
+ 
+    
+    
+    
+.jspDrag
+ {
+     background: white;
+     cursor: pointer;
+     left: 0;
+     position: relative;
+     top: 0;
+     cursor: crosshair;
+     mix-blend-mode: difference;
+     width: 500px;
+     border-radius: 20px;
+ } 
+    
+    
+    
+}
