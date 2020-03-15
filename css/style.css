@@ -186,4 +186,8 @@ a:hover {
     .mobile0ff{
         display: none;
     }
+    
+    img{
+        overflow-y: hidden;
+    }
 }

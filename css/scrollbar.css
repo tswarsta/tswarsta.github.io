@@ -9,10 +9,14 @@
  TREAT: You can style the scrollbar here. 
  */
 
+
+
+
  .jspContainer
  {
-     overflow: hidden;
+     overflow-y: hidden;
      position: relative;
+     height: 100%;
  }
  
  .jspPane
