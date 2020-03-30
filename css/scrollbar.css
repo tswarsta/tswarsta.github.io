@@ -28,7 +28,7 @@
      position: absolute;
      right: 0;
      top: 0;
-     width: 16px;
+     width: 0px;
  }
  
  .jspHorizontalBar
@@ -67,6 +67,7 @@
 
      mix-blend-mode: difference;
      border-radius: 50px;
+     cursor: crosshair;
  }
  
  .jspHorizontalBar .jspTrack,
