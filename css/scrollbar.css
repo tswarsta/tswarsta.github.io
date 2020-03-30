@@ -11,7 +11,7 @@
 
  .jspContainer
  {
-     overflow: hidden;
+     overflow-y: hidden;
      position: relative;
  }
  
@@ -22,6 +22,7 @@
  
  .jspVerticalBar
  {
+     display: none;
      background: transparent;
      height: 100%;
      position: absolute;
