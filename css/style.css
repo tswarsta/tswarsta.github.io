@@ -8,6 +8,7 @@ body {
     height: 100%;
     font-family: arial;
     font-size: 50px;
+    line-height: .9;
     background-color: #0c0c0c;
     color: white;
     overflow-y: hidden;
@@ -180,7 +181,7 @@ a:hover {
     .info{
         bottom: 0;
         position: fixed;
-        margin-bottom: 20px;
+/*        margin-bottom: 20px;*/
     }
     
     .mobile0ff{

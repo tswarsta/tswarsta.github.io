@@ -9,14 +9,10 @@
  TREAT: You can style the scrollbar here. 
  */
 
-
-
-
  .jspContainer
  {
-     overflow-y: hidden;
+     overflow: hidden;
      position: relative;
-     height: 100%;
  }
  
  .jspPane
@@ -31,7 +27,7 @@
      position: absolute;
      right: 0;
      top: 0;
-     width: 0px;
+     width: 16px;
  }
  
  .jspHorizontalBar
@@ -67,10 +63,9 @@
      left: 0;
      position: relative;
      top: 0;
-     cursor: crosshair;
+
      mix-blend-mode: difference;
      border-radius: 50px;
- 
  }
  
  .jspHorizontalBar .jspTrack,
@@ -78,12 +73,10 @@
  {
      float: left;
      height: 100%;
-     
  }
  
  .jspArrow
  {
-/*
      background: transparent;
      cursor: pointer;
      direction: ltr;
@@ -91,9 +84,6 @@
      margin: 0;
      padding: 0;
      text-indent: -20000px;
-    
-*/
-     display: none;
  }
  
  .jspDisabled
@@ -104,7 +94,6 @@
  
  .jspVerticalBar .jspArrow
  {
-     display: none;
      height: 16px;
  }
  
@@ -112,7 +101,7 @@
  {
      float: left;
      height: 100%;
-     width: 0px;
+     width: 16px;
  }
  
  .jspVerticalBar .jspArrow:focus
@@ -147,7 +136,6 @@
   .horizontal-only {
     height: auto;
     min-height: 90vh;
-      width: 100vw;
   }
   
   #full-page-container {
@@ -156,34 +144,3 @@
   
   
   /*  END SCROLLBAR STYLES  */
-
-
-
-
-
-@media only screen and (max-width: 768px) {
-   
- .jspHorizontalBar
- {
-     height: 20px;
- }
- 
-    
-    
-    
-.jspDrag
- {
-     background: white;
-     cursor: pointer;
-     left: 0;
-     position: relative;
-     top: 0;
-     cursor: crosshair;
-     mix-blend-mode: difference;
-     width: 500px;
-     border-radius: 20px;
- } 
-    
-    
-    
-}
