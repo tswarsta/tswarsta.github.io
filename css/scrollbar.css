@@ -28,6 +28,7 @@
      position: absolute;
      right: 0;
      top: 0;
+     height: 0px;
      width: 0px;
  }
  
@@ -96,14 +97,14 @@
  
  .jspVerticalBar .jspArrow
  {
-     height: 16px;
+     height:0px;
  }
  
  .jspHorizontalBar .jspArrow
  {
      float: left;
      height: 100%;
-     width: 16px;
+     width: 0px;
  }
  
  .jspVerticalBar .jspArrow:focus
