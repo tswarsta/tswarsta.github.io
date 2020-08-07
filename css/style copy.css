@@ -13,7 +13,6 @@ body {
     color: white;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
-    
 }
 
 ::-webkit-scrollbar {
@@ -54,14 +53,14 @@ a:link {
 }
 
 a:visited {
-    color: #f7f7f7;
+    color: white;
     text-decoration: none;
 }
 
 a:hover {
     cursor: crosshair;
     color: white;
-/*    text-shadow: 0px 0px 2.5px white;*/
+    text-shadow: 0px 0px 2.5px white;
 }
 
 .wrapper {
@@ -75,7 +74,7 @@ a:hover {
 .credits {
     font-family: "Times New Roman", serif;
     font-size: 56.25px;
-/*    color: white;*/
+    color: white;
     text-decoration: none;
     cursor: crosshair;
     /*  margin-left: 6.25vw;*/
