@@ -290,7 +290,10 @@ header {
  }
     
     
-    
+   
+.dropdown-content {
+    width: 100vw;
+} 
     
   
     
