@@ -15,10 +15,12 @@ body {
 ::-webkit-scrollbar {
     display: none;
 }
+/*
 .width{
     height: 100vh;
  
 }
+*/
 header {
     z-index: 100;
     position: fixed;
@@ -26,9 +28,11 @@ header {
 }
 
 img {
+    height: 100vh;
     z-index: -1;
    
 }
+
 
 a:link {
     font-family: "Times New Roman", serif;
@@ -295,6 +299,10 @@ header {
     width: 100vw;
 } 
     
+    .width{
+        height: 100vh;
+    }
+    
   
     
 }
@@ -312,6 +320,6 @@ header {
     white-space: normal;
     word-wrap: break-word;
     margin: 0;
-    margin-left: -7px;
+    margin-left: -15px;
 }
 
