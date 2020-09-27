@@ -60,13 +60,13 @@
  
  .jspDrag
  {
-     background: white;
+     background: #c0c0c0;
      cursor: pointer;
      left: 0;
      position: relative;
      top: 0;
 
-     mix-blend-mode: difference;
+/*     mix-blend-mode: difference;*/
      border-radius: 50px;
      cursor: crosshair;
  }
