@@ -1,325 +1,62 @@
 @import "reset.css";
-/*@import "scrollbar.css";*/
 
 html,
 body {
-    margin: 0;
-    padding: 0;
     font-family: arial;
-    font-size: 50px;
+    font-size: 25px;
     line-height: .9;
     color: black;
     overflow-y: hidden;
+
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
-/*
-.width{
-    height: 100vh;
- 
-}
-*/
 header {
     z-index: 100;
     position: fixed;
     width: 100%;
+    margin-top: 50vh;
 }
 
 img {
     height: 100vh;
-    z-index: -1;
-   
+    vertical-align: top;
+    margin-right: -7px;
 }
 
+.notes {
+    height: 50vh;
+}
 
 a:link {
+    z-index: 100;
     font-family: "Times New Roman", serif;
-    font-size: 56.25px;
+    font-size: 28.125px;
     cursor: crosshair;
 }
 
-/*  GRID  */
-.section {
-    clear: both;
-    padding: 0px;
-    margin: 0px;
-}
-.col {
-    display: block;
-    float: left;
-    margin: 0px 0 1px 0%;
-}
-.col:first-child {
-    padding: 0px;
-}
-.group:before,
-.group:after {
-    content: "";
-    display: table;
-}
-.group:after {
-    clear: both;
-}
-.group {
-    zoom: 1;
-}
-.span_1_of_2 {
-    width: 50%;
-}
-.span_2_of_2 {
-    width: 100%;
-}
-
-
-
-/* Dropdown Button */
 .dropbtn {
-font-family: arial;
-  font-size: 50px;
-/*  border: none;*/
-  cursor: crosshair;
-    border-radius: 50px;
-     border: solid black;
-    height: 50px;
-    
+    font-family: arial;
+    font-size: 25px;
+    cursor: crosshair;
+    border-radius: 25px;
+    border: solid black;
+    height: 25px;
 }
-
 
 .dropdown {
-  position: relative;
-  display: block;
+    position: relative;
+    display: block;
 }
-
 
 .dropdown-content {
-    width: 50vw;
-  display: none;
-  position: inline-block;
-  z-index: 1;
+    display: none;
 }
 
-
-
-/* Links inside the dropdown */
-/*.dropdown-content a {*/
-/*
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-*/
-/*}*/
-
-/* Change color of dropdown links on hover */
-
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
-
-
-
-/*SCROLLBAR*/
- .jspContainer
- {
-     width: 100vw;
-     overflow-y: hidden;
-     position: relative;
- }
- 
- .jspPane
- {
-     position: absolute;
- }
- 
- .jspVerticalBar{
-     display: none;
- }
- 
- .jspHorizontalBar
- {
-     background: transparent;
-     bottom: 0;
-     height: 50px;
-     left: 0;
-     position: absolute;
- }
- 
- .jspCap
- {
-     display: none;
- }
- 
- .jspHorizontalBar .jspCap
- {
-
-     float: left;
- }
- 
- .jspTrack
- {
-     background: transparent;
-     position: relative;
- }
- 
- .jspDrag
- {
-     background: black;
-     left: 0;
-     position: relative;
-     top: 0;
-     border-radius: 50px;
-     cursor: crosshair;
- }
- 
- .jspHorizontalBar .jspTrack,
- .jspHorizontalBar .jspDrag
- {
-     float: left;
-     height: 100%;
- }
- 
- .jspArrow
- {
-     display: none;
- }
- 
- .jspDisabled
- {
-     display: none;
-
- }
- 
- .jspVerticalBar .jspArrow
- {
-     display: none;
- }
- 
- .jspHorizontalBar .jspArrow
- {
-     display: none;
-     float: left;
-     height: 100%;
-     width: 0px;
- }
- 
- .jspVerticalBar .jspArrow:focus
- {
-  display: none;
- }
- 
- .jspCorner
- {
-     display: none;
-   
- }
- 
-
-
-
-/* MORE SCROLLBAR SCROLL STYLES */
-
-.scroll-pane {
-    width: 100vw;
-/*    height: 0%;*/
-  }
-  .horizontal-only {
-    height: auto;
-    min-height: 100vh;
-  }
-  
-  #full-page-container {
-    overflow: auto;
-  }
-  
-  
-  /*  END SCROLLBAR STYLES  */
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 768px) {
-    .col {margin: 0px 0 1px 0%;}
-    .span_1_of_2,.span_2_of_2 {
-        width: 100%;
-    }
-     html,body {
-        font-size: 25px;
-          overflow-y: hidden;
-    }
-
-    a:link {
-        font-size: 28.125px;
-    }
-    img {
-    height: 50vh;
+.show {
+    display: block;
 }
-    
-    
-    .dropbtn {
-  font-size: 25px;
-/*  border: none;*/
-  cursor: crosshair;
-    border-radius: 25px;
-     border: 1px solid black;
-        height: 25px;
 
-}
-header {
-    z-index: 100;
-    position: absolute;
-    width: 100%;
-    margin-top: 50vh;
-}
-    
- .jspHorizontalBar
- {
-   
-     height: 25px;
-
- }
- 
-
- 
- .jspDrag
- {
-  
-     border-radius: 25px;
-
- }
-    
-    
-   
-.dropdown-content {
-    width: 100vw;
-} 
-    
-    .width{
-        height: 100vh;
-    }
-    
-  
-    
-}
-/*DO NOT EDIT*/
 .main-content,
 .content-area {
-    height: 100vh;
-    width: 100vw;
     white-space: nowrap;
 }
-
-.entry {
-    display: inline-block;
-    vertical-align: top;
-    white-space: normal;
-    word-wrap: break-word;
-    margin: 0;
-    margin-left: -15px;
-}
-
