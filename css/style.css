@@ -6,8 +6,23 @@ body {
     font-size: 25px;
     line-height: .9;
     color: black;
-    overflow-y: hidden;
+/*    overflow-y: hidden;*/
+}
 
+a:link {
+    z-index: 100;
+    font-family: "Times New Roman", serif;
+    font-size: 28.125px;
+    cursor: crosshair;
+}
+
+.dropbtn {
+    font-family: arial;
+    font-size: 25px;
+    cursor: crosshair;
+    border-radius: 25px;
+    border: solid black;
+    height: 25px;
 }
 
 header {
@@ -25,22 +40,6 @@ img {
 
 .notes {
     height: 50vh;
-}
-
-a:link {
-    z-index: 100;
-    font-family: "Times New Roman", serif;
-    font-size: 28.125px;
-    cursor: crosshair;
-}
-
-.dropbtn {
-    font-family: arial;
-    font-size: 25px;
-    cursor: crosshair;
-    border-radius: 25px;
-    border: solid black;
-    height: 25px;
 }
 
 .dropdown {
