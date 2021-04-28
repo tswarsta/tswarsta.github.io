@@ -18,6 +18,7 @@ a:link {
     border-radius: 22.2px;
     border: solid black;
     height: 22.2px;
+    cursor: crosshair;
 }
 
 header {
