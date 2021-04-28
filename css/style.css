@@ -19,6 +19,7 @@ a:link {
     border: solid black;
     height: 22.2px;
     cursor: crosshair;
+    background: none;
 }
 
 header {
