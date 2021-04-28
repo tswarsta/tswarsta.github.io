@@ -3,25 +3,21 @@
 html,
 body {
     font-family: arial;
-    font-size: 25px;
-    line-height: .9;
+    font-size: 22.2px;
+    line-height: .95;
     color: black;
 }
 
 a:link {
-    z-index: 100;
-    font-family: "Times New Roman", serif;
-    font-size: 28.125px;
     cursor: crosshair;
 }
 
 .dropbtn {
-    font-family: arial;
-    font-size: 25px;
+    font-size: 22.2px;
     cursor: crosshair;
-    border-radius: 25px;
+    border-radius: 22.2px;
     border: solid black;
-    height: 25px;
+    height: 22.2px;
 }
 
 header {
