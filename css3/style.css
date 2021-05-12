@@ -13,8 +13,7 @@ html {
     .desk{
         display: block;
         width: 100vw;
-        float: left;
-        height: relative;
+        height: auto;
     }
 
 .slideshow {
