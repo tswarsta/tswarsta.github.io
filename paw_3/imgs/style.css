@@ -1,0 +1,160 @@
+body,
+html {
+  height: 100%;
+  background: black;
+  overflow: hidden;
+}
+
+    .mobile{
+        display: none;
+     
+    }
+    
+    .desk{
+        display: block;
+        width: 100vw;
+        float: left;
+/*        height: relative;*/
+                object-fit: contain;
+
+    }
+
+
+img{
+    z-index: 1;
+}
+
+.slick-prev {
+    display: block;
+    position: absolute;
+    z-index: 600;
+
+    left: 0;
+/*    margin-top: 50;*/
+/*    margin-bottom: 2vh;*/
+    margin: 1vh;
+}
+
+.slick-next{
+    display: block;
+    position: absolute;
+    z-index: 500;
+    right: 0;
+    top:0;
+margin: 1vh;
+    
+}
+button{
+    font-family: futura;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background: none;
+    border: none;
+}
+
+
+
+
+/*
+.slick-arrow {
+    display: block;
+    position: absolute;
+    z-index: 500;
+}
+*/
+
+.slideshow {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.slideshow .slider {
+  width: 100vw;
+  height: 100vw;
+  z-index: 2;
+}
+.slideshow .slider * {
+  outline: none;
+}
+.slideshow .slider s{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+  border: none;
+}
+
+.item {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+  border: none;
+}
+
+
+
+.slideshow .slider .item .text {
+  display: none;
+}
+.slideshow .slider .item img {
+  min-width: 101%;
+  min-height: 101%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+.slideshow.slideshow-right {
+  left: 0;
+  z-index: 1;
+  width: 50vw;
+  pointer-events: none;
+}
+.slideshow.slideshow-right .slider {
+  left: 0;
+  position: absolute;
+}
+
+
+
+@media (max-width: 500px) {
+
+    .mobile{
+        display: block;
+/*         height: 90vh;*/
+        width: 100vw;
+    
+        object-fit: cover;
+    }
+    
+    .desk{
+        display: none;
+    }
+
+    
+    .slick-prev {
+
+    margin-top: 50vh;
+}
+
+.slick-next{
+
+margin-top: 50vh;
+    
+}
+
+
+
+}
+
