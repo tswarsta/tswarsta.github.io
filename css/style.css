@@ -3,7 +3,7 @@
 html,
 body {
     font-family: arial;
-/*    font-size: 20px;*/
+    font-size: 20px;
     color: black;
 }
 
@@ -12,14 +12,14 @@ a:link {
 }
 
 .dropbtn {
-/*    font-size: 20px;*/
+    font-size: 20px;
     cursor: crosshair;
     border-radius: 16px;
     border: solid black;
     height: 20px;
+    color: black;
     cursor: crosshair;
     background: none;
-    -webkit-appearance: none;
 }
 
 header {
