@@ -3,8 +3,7 @@
 html,
 body {
     font-family: arial;
-    font-size: 22.2px;
-    line-height: .95;
+    font-size: 20px;
     color: black;
 }
 
@@ -13,11 +12,11 @@ a:link {
 }
 
 .dropbtn {
-    font-size: 22.2px;
+    font-size: 20px;
     cursor: crosshair;
-    border-radius: 22.2px;
+    border-radius: 16px;
     border: solid black;
-    height: 22.2px;
+    height: 20px;
     cursor: crosshair;
     background: none;
 }
@@ -32,7 +31,7 @@ header {
 img {
     height: 100vh;
     vertical-align: top;
-    margin-right: -7px;
+    margin-right: -6px;
 }
 
 .notes {
