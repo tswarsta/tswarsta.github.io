@@ -19,6 +19,7 @@ a:link {
     height: 20px;
     cursor: crosshair;
     background: none;
+    -webkit-appearance: none;
 }
 
 header {
