@@ -21,7 +21,6 @@ header {
     position: fixed;
     width: 100%;
     bottom: 1vh;
-    z-index: -1;
 }
 
 img {
@@ -32,19 +31,6 @@ img {
 
 .notes {
     height: 50vh;
-}
-
-.dropdown {
-    position: relative;
-    display: block;
-}
-
-.dropdown-content {
-    display: none;
-}
-
-.show {
-    display: block;
 }
 
 .main-content,
