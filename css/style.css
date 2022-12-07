@@ -11,22 +11,17 @@ a:link {
     cursor: crosshair;
 }
 
-.dropbtn {
-    font-size: 20px;
-    cursor: crosshair;
-    border-radius: 16px;
-    border: solid black;
-    height: 20px;
-    color: black;
-    cursor: crosshair;
-    background: none;
+.caption{
+    top: 50vh;
+    display: inline-block;
+    position: absolute;
 }
 
 header {
-    z-index: 100;
     position: fixed;
     width: 100%;
-    margin-top: 50vh;
+    bottom: 1vh;
+    z-index: -1;
 }
 
 img {
