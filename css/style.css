@@ -1,14 +1,15 @@
 @import "reset.css";
 
-html,
+html{overflow-y: hidden;}
+
+a:link {cursor: crosshair; text-decoration: none; color: black;}
+a:visited{color: black;}
+a:active{color: black;}
+
 body {
     font-family: arial;
-    font-size: 20px;
+    font-size: 1em;
     color: black;
-}
-
-a:link {
-    cursor: crosshair;
 }
 
 .caption{
@@ -20,20 +21,15 @@ a:link {
 header {
     position: fixed;
     width: 100%;
-    bottom: 1vh;
+    bottom: 0;
 }
 
 img {
     height: 100vh;
     vertical-align: top;
-    margin-right: -6px;
+    margin-left: -5px;
 }
 
-.notes {
-    height: 50vh;
-}
+.notes {height: 50vh;}
 
-.main-content,
-.content-area {
-    white-space: nowrap;
-}
+.main-content, .content-area { white-space: nowrap;}
