@@ -1,0 +1,32 @@
+@import "reset.css";
+
+a:link {cursor: crosshair; text-decoration: none; color: black;}
+a:visited{color: black;}
+a:active{color: black;}
+
+body {
+    font-family: arial;
+    font-size: 1em;
+    color: black;
+}
+
+.caption{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+img {
+    height: 100vh;
+    vertical-align: top;
+    margin-left: -5px;
+}
+
+
+.main-content, .content-area { white-space: nowrap;}
