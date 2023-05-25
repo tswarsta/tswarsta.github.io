@@ -2,9 +2,7 @@
 
 a:link {cursor: crosshair;}
 
-body {
-    font-family: arial;
-}
+body {font-family: arial;}
 
 .caption{
     display: inline-block;
@@ -23,8 +21,6 @@ img {
     margin-left: -5px;
 }
 
-.notes{
-    height:50vh;
-}
+.notes{height:50vh;}
 
 .main-content, .content-area { white-space: nowrap;}
