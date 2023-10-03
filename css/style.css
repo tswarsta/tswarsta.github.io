@@ -16,11 +16,11 @@ header {
 }
 
 img {
-    height: 100vh;
+    height: 50vh;
     vertical-align: top;
     margin-left: -5px;
 }
 
-.notes{height:50vh;}
+/*.notes{height:50vh;}*/
 
 .main-content, .content-area { white-space: nowrap;}
