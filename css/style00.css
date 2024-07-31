@@ -1,0 +1,32 @@
+@import "reset.css";
+
+html{
+    margin-left: 35%;
+    max-width: 40%;
+    margin-right: 35%;
+    align-content: center;
+}
+
+a:link {cursor: crosshair;}
+
+body {font-family: arial;}
+
+.caption{
+/*
+    display: inline-block;
+    position: absolute;
+*/
+/*    margin-top: 50vh;*/
+}
+
+header {
+    position: fixed;
+}
+
+img {
+width: 100%;
+    vertical-align: top;
+
+}
+
+/*.main-content, .content-area { white-space: nowrap;}*/
